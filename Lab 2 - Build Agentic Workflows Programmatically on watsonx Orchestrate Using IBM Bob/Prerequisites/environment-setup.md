@@ -135,21 +135,23 @@ python --version
 
 IBM Bob is an AI-powered development assistant. You have two options:
 
-### Option 1: IBM Bob Web Trial (Recommended - Easiest)
+### Option 1: IBM Bob Desktop Application (Recommended)
 
-**No installation required!** Use Bob directly in your browser:
+Download and install the IBM Bob desktop application:
 
 1. **Visit**: [https://bob.ibm.com/trial](https://bob.ibm.com/trial)
 2. **Sign in** with your IBM ID
-3. **Start using Bob** immediately in the web interface
+3. **Download** the Bob installer for your operating system
+4. **Install** the application following the on-screen instructions
+5. **Launch** IBM Bob and sign in
 
 **Advantages:**
-- ✅ No software installation needed
-- ✅ Works on any device with a browser
-- ✅ Instant access
+- ✅ Standalone application - no VS Code needed
+- ✅ Full-featured Bob experience
+- ✅ Easy to use
 - ✅ Perfect for this lab
 
-### Option 2: VS Code Extension (For Local Development)
+### Option 2: VS Code Extension (Alternative)
 
 If you prefer working in VS Code:
 
@@ -182,8 +184,10 @@ If you prefer working in VS Code:
 
 ### Verify Bob Installation
 
-**For Web Trial:**
-- You should see the Bob chat interface at [bob.ibm.com/trial](https://bob.ibm.com/trial)
+**For Desktop Application:**
+- Launch the IBM Bob application
+- Sign in with your IBM ID
+- You should see the Bob chat interface
 - Try asking Bob a simple question to test functionality
 
 **For VS Code Extension:**

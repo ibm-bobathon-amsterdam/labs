@@ -1,6 +1,36 @@
-# IBM Bobathon Amsterdam Labs
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ██████╗  ██████╗ ██████╗  █████╗ ████████╗██╗  ██╗ ██████╗ ███╗   ██╗   ║
+║   ██╔══██╗██╔═══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║   ║
+║   ██████╔╝██║   ██║██████╔╝███████║   ██║   ███████║██║   ██║██╔██╗ ██║   ║
+║   ██╔══██╗██║   ██║██╔══██╗██╔══██║   ██║   ██╔══██║██║   ██║██║╚██╗██║   ║
+║   ██████╔╝╚██████╔╝██████╔╝██║  ██║   ██║   ██║  ██║╚██████╔╝██║ ╚████║   ║
+║   ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ║
+║                                                                              ║
+║                        🤖 IBM Bobathon Amsterdam 🇳🇱                         ║
+║                                                                              ║
+║              Build Enterprise AI Solutions with IBM Bob                     ║
+║                   3 Hands-On Labs | 3-4 Hours Total                         ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-Welcome to the IBM Bobathon Amsterdam Labs repository! This collection of hands-on labs demonstrates how to leverage IBM Bob as an AI development partner to build enterprise-grade solutions.
+<div align="center">
+
+### 🚀 **AI-Powered Development** | 💻 **Full-Stack Apps** | 🤖 **Agentic Workflows** | 📊 **Event-Driven Systems**
+
+[![IBM](https://img.shields.io/badge/IBM-Bob-blue?style=for-the-badge&logo=ibm)](https://bob.ibm.com)
+[![watsonx](https://img.shields.io/badge/watsonx-Orchestrate-purple?style=for-the-badge)](https://www.ibm.com/watsonx)
+[![Kafka](https://img.shields.io/badge/Apache-Kafka-black?style=for-the-badge&logo=apache-kafka)](https://kafka.apache.org)
+
+</div>
+
+---
+
+## Welcome to IBM Bobathon Amsterdam Labs
+
+This collection of hands-on labs demonstrates how to leverage **IBM Bob** as an AI development partner to build enterprise-grade solutions. From full-stack applications to event-driven agentic systems, you'll learn how AI can accelerate your development workflow.
 
 ## About IBM Bob
 

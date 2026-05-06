@@ -122,31 +122,6 @@ If you're in an instructor-led workshop:
 
 ---
 
-## For Workshop Instructors
-
-If you're an instructor setting up a TechZone environment:
-
-1. **Collect IBMids** from all participants before sending invitations
-2. **Verify** that participants have completed IBMid registration
-3. **Send invitations** through TechZone to the registered IBMids
-4. **Provide** workshop-specific access instructions
-
----
-
-## Difference from Free Trial
-
-| Feature | TechZone | Free Trial |
-|---------|----------|------------|
-| **Access** | Requires IBMid and request | Direct self-service signup |
-| **Setup** | May be pre-configured | Self-setup required |
-| **Duration** | Varies by environment | 30-60 days (varies) |
-| **Support** | TechZone support | Community/documentation |
-| **Availability** | Alternative option | Primary option |
-
-**Prefer self-service?** Try the [Free Trial Signup Guide](Prerequisites/watsonx-orchestrate-signup.md) first.
-
----
-
 ## Additional Resources
 
 - [IBM Account Help](https://www.ibm.com/account/help)

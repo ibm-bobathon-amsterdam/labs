@@ -13,13 +13,14 @@
 1. [Overview](#1-overview)
 2. [Architecture](#2-architecture)
 3. [Prerequisites](#3-prerequisites)
-4. [OPTIONAL – Configure watsonx Orchestrate MCP Servers](#4-optional--configure-watsonx-orchestrate-mcp-servers)
-5. [Create a Bob Rule for Development Best Practices](#5-create-a-bob-rule-for-development-best-practices)
-6. [Create the Implementation Plan and Agent Design](#6-create-the-implementation-plan-and-agent-design)
-7. [Implement the Agent and the Agentic Workflow](#7-implement-the-agent-and-the-agentic-workflow)
-8. [Deploy the Agentic Workflow and the Agent](#8-deploy-the-agentic-workflow-and-the-agent)
-9. [Verify the Agent in watsonx Orchestrate](#9-verify-the-agent-in-watsonx-orchestrate)
-10. [Summary and Next Steps](#10-summary-and-next-steps)
+4. [Create a Bob Rule for Development Best Practices](#4-create-a-bob-rule-for-development-best-practices)
+5. [Create the Implementation Plan and Agent Design](#5-create-the-implementation-plan-and-agent-design)
+6. [Implement the Agent and the Agentic Workflow](#6-implement-the-agent-and-the-agentic-workflow)
+7. [Deploy the Agentic Workflow and the Agent](#7-deploy-the-agentic-workflow-and-the-agent)
+8. [Verify the Agent in watsonx Orchestrate](#8-verify-the-agent-in-watsonx-orchestrate)
+9. [Summary and Next Steps](#9-summary-and-next-steps)
+
+**Optional:** [Configure watsonx Orchestrate MCP Servers](#optional--configure-watsonx-orchestrate-mcp-servers)
 
 ---
 
@@ -67,7 +68,7 @@ You will build an agentic workflow that extracts structured data from airline in
 
 ---
 
-## 4. OPTIONAL – Configure watsonx Orchestrate MCP Servers
+## OPTIONAL – Configure watsonx Orchestrate MCP Servers
 
 > **Skip this section** if you already set up the wxO MCP servers using the environment setup guide.
 
@@ -86,7 +87,7 @@ The PDF includes step-by-step instructions for creating the `.bob/mcp.json` conf
 
 ---
 
-## 5. Create a Bob Rule for Development Best Practices
+## 4. Create a Bob Rule for Development Best Practices
 
 Create a Bob rule that captures best practices for development work with watsonx Orchestrate ADK. Bob rules apply across all modes and ensure Bob follows correct patterns when planning tasks, writing code, or using advanced features.
 
@@ -105,7 +106,7 @@ Create a Bob rule that captures best practices for development work with watsonx
 
 ---
 
-## 6. Create the Implementation Plan and Agent Design
+## 5. Create the Implementation Plan and Agent Design
 
 Provide Bob the agent requirements. Bob will then create the task plan and generate the agent architecture design.
 
@@ -163,7 +164,7 @@ Required Fields to Extract:
 
 ---
 
-## 7. Implement the Agent and the Agentic Workflow
+## 6. Implement the Agent and the Agentic Workflow
 
 Ask Bob to generate the code and configuration needed to build the agent.
 
@@ -215,7 +216,7 @@ Important Implementation Details:
 
 ---
 
-## 8. Deploy the Agentic Workflow and the Agent
+## 7. Deploy the Agentic Workflow and the Agent
 
 Ask Bob to deploy the agentic workflow tool and agent YAML file by importing the script created in the previous step.
 
@@ -247,7 +248,7 @@ ibm-watsonx-orchestrate with pip.
 
 ---
 
-## 9. Verify the Agent in watsonx Orchestrate
+## 8. Verify the Agent in watsonx Orchestrate
 
 Confirm that the agentic workflow works correctly. Log in, check the agent configuration, and run a simple test.
 
@@ -279,7 +280,7 @@ Confirm that the agentic workflow works correctly. Log in, check the agent confi
 
 ---
 
-## 10. Summary and Next Steps
+## 9. Summary and Next Steps
 
 This tutorial showed how Bob automates the complete process of building and deploying agentic workflows for watsonx Orchestrate.
 

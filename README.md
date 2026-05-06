@@ -8,9 +8,11 @@ IBM Bob is an AI-powered development assistant that helps developers create, dep
 
 ## Available Labs
 
-### Lab 2: Build Agentic Workflows with watsonx Orchestrate
+### [Lab 2: Build Agentic Workflows with watsonx Orchestrate](Lab2%20-%20watsonx%20Orchestrate%20/)
 
 **Focus**: Programmatic agent development using IBM Bob and watsonx Orchestrate ADK
+
+**🚀 [START LAB 2 NOW →](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)**
 
 **What You'll Learn:**
 - Configure Bob with Model Context Protocol (MCP) servers for watsonx Orchestrate

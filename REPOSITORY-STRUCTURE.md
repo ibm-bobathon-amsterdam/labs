@@ -10,12 +10,11 @@ bobathon-amsterdam-labs/
 ├── .gitignore                         # Git ignore rules
 ├── REPOSITORY-STRUCTURE.md            # This file
 │
-├── Prerequisites/                     # Setup guides (complete first)
-│   ├── README.md                      # Prerequisites overview
-│   ├── environment-setup.md           # Python, Bob IDE, ADK, MCP setup
-│   └── watsonx-orchestrate-signup.md  # IBM Cloud & wxO provisioning
-│
 └── Lab2 - watsonx Orchestrate/        # Lab 2: Agentic Workflows
+    ├── Prerequisites/                 # Setup guides (complete first)
+    │   ├── README.md                  # Prerequisites overview
+    │   ├── environment-setup.md       # Python, Bob IDE, ADK, MCP setup
+    │   └── watsonx-orchestrate-signup.md  # IBM Cloud & wxO provisioning
     ├── README.md                      # Lab overview and objectives
     ├── wxo-bob-lab.md                 # Complete step-by-step tutorial
     ├── env setup instructions.pdf     # Additional setup reference
@@ -81,8 +80,11 @@ graph TD
 | `README.md` | Main repository overview, lab listings, getting started guide |
 | `.gitignore` | Specifies files/folders to exclude from version control |
 | `REPOSITORY-STRUCTURE.md` | This file - visual guide to repository organization |
+| `Lab2 - watsonx Orchestrate/` | Complete Lab 2 with prerequisites and tutorial |
 
-### Prerequisites Folder
+### Lab 2 - watsonx Orchestrate Folder
+
+#### Prerequisites Subfolder
 
 | File | Purpose | Time |
 |------|---------|------|
@@ -92,7 +94,7 @@ graph TD
 
 **Total Setup Time**: ~45-65 minutes
 
-### Lab 2 - watsonx Orchestrate Folder
+#### Lab Files
 
 | File | Purpose | Lines |
 |------|---------|-------|
@@ -106,9 +108,9 @@ graph TD
 
 ## Content Overview
 
-### Prerequisites Content
+### Lab 2 Prerequisites Content
 
-**Environment Setup Guide** covers:
+**Environment Setup Guide** (in Lab2/Prerequisites/) covers:
 - Python 3.11+ installation (Windows, macOS, Linux)
 - IBM Bob IDE extension installation
 - watsonx Orchestrate ADK installation
@@ -151,29 +153,30 @@ graph TD
 ### For First-Time Users
 
 1. **Start**: Read main [README.md](README.md)
-2. **Setup**: Complete [Prerequisites](Prerequisites/)
-   - [Environment Setup](Prerequisites/environment-setup.md)
-   - [watsonx Orchestrate Signup](Prerequisites/watsonx-orchestrate-signup.md)
-3. **Learn**: Begin [Lab 2](Lab2%20-%20watsonx%20Orchestrate%20/)
-   - Read [Lab README](Lab2%20-%20watsonx%20Orchestrate%20/README.md)
-   - Follow [Tutorial](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)
+2. **Navigate**: Go to [Lab 2](Lab2%20-%20watsonx%20Orchestrate%20/)
+3. **Setup**: Complete [Prerequisites](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/)
+   - [Environment Setup](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/environment-setup.md)
+   - [watsonx Orchestrate Signup](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/watsonx-orchestrate-signup.md)
+4. **Learn**: Follow the [Tutorial](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)
 
 ### For Returning Users
 
-- **Quick Reference**: [Prerequisites README](Prerequisites/README.md)
+- **Quick Reference**: [Prerequisites README](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/README.md)
 - **Troubleshooting**: Check individual guide troubleshooting sections
 - **Lab Access**: Direct link to [Lab 2 Tutorial](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)
 
 ## Key Features
 
-### Prerequisites Folder
-✅ Comprehensive setup guides  
-✅ Platform-specific instructions (Windows, macOS, Linux)  
-✅ Troubleshooting sections  
-✅ Verification steps  
-✅ Quick start checklist  
+### Lab 2 Folder Features
 
-### Lab 2 Folder
+#### Prerequisites Subfolder
+✅ Comprehensive setup guides
+✅ Platform-specific instructions (Windows, macOS, Linux)
+✅ Troubleshooting sections
+✅ Verification steps
+✅ Quick start checklist
+
+#### Lab Content
 ✅ Complete tutorial (336 lines)  
 ✅ 29 step-by-step screenshots  
 ✅ Architecture diagrams  
@@ -207,16 +210,19 @@ This repository structure is designed to accommodate additional labs:
 
 ```
 bobathon-amsterdam-labs/
-├── Prerequisites/          # Shared setup guides
-├── Lab1 - [Topic]/        # Future lab
+├── Lab1 - [Topic]/              # Future lab
+│   └── Prerequisites/           # Lab-specific setup
 ├── Lab2 - watsonx Orchestrate/  # Current lab
-├── Lab3 - [Topic]/        # Future lab
-└── Lab4 - [Topic]/        # Future lab
+│   └── Prerequisites/           # Lab-specific setup
+├── Lab3 - [Topic]/              # Future lab
+│   └── Prerequisites/           # Lab-specific setup
+└── Lab4 - [Topic]/              # Future lab
+    └── Prerequisites/           # Lab-specific setup
 ```
 
 Each lab will:
-- Reference shared Prerequisites
-- Include its own README and tutorial
+- Include its own Prerequisites folder with setup guides
+- Have its own README and tutorial
 - Provide complete documentation
 - Include visual aids and examples
 
@@ -225,8 +231,8 @@ Each lab will:
 ## Quick Links
 
 - 📖 [Main README](README.md)
-- 🔧 [Prerequisites](Prerequisites/)
 - 🚀 [Lab 2: Agentic Workflows](Lab2%20-%20watsonx%20Orchestrate%20/)
+- 🔧 [Lab 2 Prerequisites](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/)
 - 📚 [watsonx Orchestrate Docs](https://developer.watson-orchestrate.ibm.com)
 - 💡 [IBM Developer](https://developer.ibm.com)
 

@@ -6,23 +6,6 @@ Welcome to the IBM Bobathon Amsterdam Labs repository! This collection of hands-
 
 IBM Bob is an AI-powered development assistant that helps developers create, deploy, and manage applications more efficiently. Bob can generate code, create documentation, design architectures, and automate deployment workflows.
 
-## Prerequisites
-
-Before starting any lab, complete the setup guides in the [Prerequisites](Prerequisites/) folder:
-
-### 📋 [Setup Guides](Prerequisites/)
-
-1. **[Environment Setup](Prerequisites/environment-setup.md)** (30-45 min)
-   - Install Python 3.11+, IBM Bob IDE, and watsonx Orchestrate ADK
-   - Configure MCP servers for Bob integration
-
-2. **[watsonx Orchestrate Signup](Prerequisites/watsonx-orchestrate-signup.md)** (15-20 min)
-   - Create IBM Cloud account
-   - Provision watsonx Orchestrate service
-   - Generate API credentials and configure ADK
-
-**👉 [Start with Prerequisites →](Prerequisites/)**
-
 ---
 
 ## Available Labs
@@ -57,6 +40,7 @@ An automated **Expense Report Agent** that processes invoice documents (PDFs/ima
 **Time Estimate**: 60-75 minutes
 
 **Prerequisites:**
+- Complete the [Prerequisites setup guides](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/) first
 - IBM Bob IDE installed and configured
 - watsonx Orchestrate access (local or IBM Cloud SaaS)
 - Python environment with pip
@@ -90,12 +74,12 @@ Each lab includes:
 
 ```
 bobathon-amsterdam-labs/
-├── Prerequisites/              # Setup guides (complete first)
-│   ├── environment-setup.md
-│   └── watsonx-orchestrate-signup.md
-└── Lab2 - watsonx Orchestrate/ # Agentic workflows lab
-    ├── wxo-bob-lab.md         # Complete tutorial
-    └── images/                 # 29 screenshots
+└── Lab2 - watsonx Orchestrate/    # Agentic workflows lab
+    ├── Prerequisites/             # Setup guides (complete first)
+    │   ├── environment-setup.md
+    │   └── watsonx-orchestrate-signup.md
+    ├── wxo-bob-lab.md            # Complete tutorial
+    └── images/                    # 29 screenshots
 ```
 
 ## Support and Resources

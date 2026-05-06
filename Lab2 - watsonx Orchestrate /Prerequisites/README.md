@@ -160,9 +160,9 @@ If you encounter issues:
 
 Once you've completed both setup guides:
 
-✅ **You're ready to start the labs!**
+✅ **You're ready to start the lab!**
 
-🚀 [Begin Lab 2: Build Agentic Workflows with watsonx Orchestrate](../Lab2%20-%20watsonx%20Orchestrate%20/)
+🚀 [Begin Lab 2: Build Agentic Workflows with watsonx Orchestrate](../)
 
 ---
 

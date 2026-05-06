@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🤖 IBM BOBATHON AMSTERDAM 🇳🇱
+<img src="images/bob.png" alt="IBM Bob Logo" width="200"/>
+
+# IBM BOBATHON AMSTERDAM 🇳🇱
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗

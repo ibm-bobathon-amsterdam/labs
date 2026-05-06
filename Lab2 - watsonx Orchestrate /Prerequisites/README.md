@@ -25,7 +25,7 @@ Before starting any lab, complete these prerequisite steps to set up your develo
 ### 2. [watsonx Orchestrate Signup Guide](watsonx-orchestrate-signup.md)
 
 **What You'll Configure:**
-- IBM Cloud account
+- watsonx Orchestrate free trial account
 - watsonx Orchestrate service instance
 - API credentials
 - ADK environment connection
@@ -46,7 +46,7 @@ Use this checklist to track your setup progress:
 - [ ] IBM Bob IDE extension installed in VS Code
 - [ ] watsonx Orchestrate ADK installed (`orchestrate --version` works)
 - [ ] MCP servers configured in `.bob/mcp.json`
-- [ ] IBM Cloud account created
+- [ ] watsonx Orchestrate free trial account created
 - [ ] watsonx Orchestrate service provisioned
 - [ ] API credentials generated and saved securely
 - [ ] ADK environment configured and activated
@@ -63,7 +63,7 @@ Follow these guides in order:
    - Configure Bob and MCP servers
 
 2. **Second**: [watsonx Orchestrate Signup](watsonx-orchestrate-signup.md)
-   - Create IBM Cloud account
+   - Create watsonx Orchestrate free trial account
    - Provision service
    - Configure credentials
 

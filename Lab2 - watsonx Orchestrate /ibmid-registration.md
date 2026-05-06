@@ -1,20 +1,21 @@
 # Create Your IBMid for TechZone Access
 
-This guide is for **Business Partners and clients** participating in instructor-led workshops using IBM TechZone environments.
+This guide is for users who need to access IBM TechZone as an alternative to the watsonx Orchestrate free trial.
 
 ## Who Needs This?
 
+- ✅ **Users** who cannot access the free trial in their region
 - ✅ **Business Partners** without an existing IBMid
-- ✅ **Clients** invited to workshop environments
+- ✅ **Clients** participating in workshops or requiring TechZone access
 - ❌ **IBM Employees** - You already have an IBMid, skip this guide
 
 ## Important Notes
 
-⚠️ **You MUST create your IBMid BEFORE the instructor invites you to the workshop environment.**
+⚠️ **You MUST create your IBMid BEFORE requesting TechZone access.**
 
-⚠️ **You will NOT receive the workshop invitation email unless you already have an IBMid.**
+⚠️ **Your email address becomes your IBMid** - use it to access TechZone environments.
 
-⚠️ **Your email address becomes your IBMid** - use it to access the workshop environment.
+⚠️ **TechZone is an alternative** when the free trial isn't available or doesn't work for you.
 
 ---
 
@@ -68,19 +69,19 @@ You will receive a confirmation email indicating that:
 
 ### After Creating Your IBMid
 
-1. ✅ **Notify your instructor** that you've created your IBMid
-2. ✅ **Wait for the workshop invitation** email from your instructor
-3. ✅ **Accept the invitation** to access the TechZone environment
-4. ✅ **Follow the workshop instructions** provided by your instructor
+1. ✅ **Access IBM TechZone** at [techzone.ibm.com](https://techzone.ibm.com)
+2. ✅ **Request a watsonx Orchestrate environment** using your IBMid
+3. ✅ **Wait for environment provisioning** (typically 15-30 minutes)
+4. ✅ **Follow the TechZone instructions** to access your environment
 
-### Workshop Environment Access
+### For Workshop Participants
 
-Once invited to the workshop:
+If you're in an instructor-led workshop:
 
-- You'll receive an email with access instructions
-- Use your IBMid (email) and password to sign in
-- Access the pre-configured watsonx Orchestrate environment
-- No additional setup required - the instructor has prepared everything
+- Notify your instructor that you've created your IBMid
+- Wait for the workshop invitation email
+- Accept the invitation to access the pre-configured environment
+- Follow workshop-specific instructions provided by your instructor
 
 ---
 
@@ -111,13 +112,13 @@ Once invited to the workshop:
 2. Try a different email address if the current one is already registered
 3. Contact your workshop instructor for assistance
 
-### Issue: Still Haven't Received Workshop Invitation
+### Issue: Can't Access TechZone
 
 **Solutions:**
 1. Confirm your IBMid is activated (check confirmation email)
-2. Verify you provided the correct email to your instructor
-3. Check spam/junk folders
-4. Contact your instructor to resend the invitation
+2. Verify you're using the correct IBMid (email) and password
+3. Try accessing TechZone in a different browser
+4. Contact IBM TechZone support if issues persist
 
 ---
 
@@ -134,15 +135,15 @@ If you're an instructor setting up a TechZone environment:
 
 ## Difference from Free Trial
 
-| Feature | TechZone Workshop | Free Trial |
-|---------|------------------|------------|
-| **Access** | Instructor-provided | Self-service signup |
-| **Setup** | Pre-configured by instructor | Self-setup required |
-| **Duration** | Workshop duration | 30-60 days (varies) |
-| **Support** | Instructor-led | Community/documentation |
-| **Environment** | Shared/managed | Personal instance |
+| Feature | TechZone | Free Trial |
+|---------|----------|------------|
+| **Access** | Requires IBMid and request | Direct self-service signup |
+| **Setup** | May be pre-configured | Self-setup required |
+| **Duration** | Varies by environment | 30-60 days (varies) |
+| **Support** | TechZone support | Community/documentation |
+| **Availability** | Alternative option | Primary option |
 
-**For self-paced learning**, use the [Free Trial Signup Guide](Prerequisites/watsonx-orchestrate-signup.md) instead.
+**Prefer self-service?** Try the [Free Trial Signup Guide](Prerequisites/watsonx-orchestrate-signup.md) first.
 
 ---
 
@@ -156,13 +157,15 @@ If you're an instructor setting up a TechZone environment:
 
 ## Next Steps
 
-After creating your IBMid and receiving workshop access:
+After creating your IBMid:
 
-1. 📧 **Wait for instructor invitation** to the workshop environment
-2. 🔐 **Sign in** using your IBMid when you receive access
-3. 📚 **Follow workshop instructions** provided by your instructor
-4. 🚀 **Start learning** with the pre-configured environment
+1. 🌐 **Access TechZone** at [techzone.ibm.com](https://techzone.ibm.com)
+2. 🔐 **Sign in** using your IBMid (email) and password
+3. 🚀 **Request a watsonx Orchestrate environment**
+4. 📚 **Follow TechZone instructions** to access your environment
+
+**For workshop participants:** Wait for your instructor's invitation and follow their specific instructions.
 
 ---
 
-**Questions?** Contact your workshop instructor for assistance.
+**Questions?** Contact IBM TechZone support or your workshop instructor (if applicable).

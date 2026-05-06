@@ -76,21 +76,25 @@ For individual learners using the watsonx Orchestrate free trial:
 
 **👉 [Start with Prerequisites →](Prerequisites/)**
 
-#### Option 2: Instructor-Led Workshop (TechZone)
+#### Option 2: Using TechZone (Alternative)
 
-For Business Partners and clients participating in instructor-led workshops:
+If the free trial isn't available in your region or doesn't work for you:
 
 1. **[Create Your IBMid](ibmid-registration.md)** (~5 min)
    - ✅ IBMid created for TechZone access
    - ✅ Email verified
-   - ✅ Ready to receive workshop invitation
+   - ✅ Ready to request TechZone environment
 
-2. **Wait for instructor invitation** to the pre-configured TechZone environment
-3. **Follow workshop-specific instructions** provided by your instructor
+2. **Request TechZone Environment**
+   - Access IBM TechZone with your IBMid
+   - Request a pre-configured watsonx Orchestrate environment
+   - Wait for environment provisioning (typically 15-30 minutes)
+
+3. **Follow TechZone-specific instructions** provided in your environment
 
 **👉 [IBMid Registration Guide →](ibmid-registration.md)**
 
-> **Note**: IBM employees already have an IBMid and can skip the registration step.
+> **Note**: TechZone is available for IBM Business Partners, clients, and users who cannot access the free trial. IBM employees already have an IBMid and can skip the registration step.
 
 ### Quick Verification
 

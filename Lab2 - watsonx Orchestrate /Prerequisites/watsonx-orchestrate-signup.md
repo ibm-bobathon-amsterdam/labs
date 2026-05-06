@@ -86,16 +86,6 @@ This guide walks you through:
 **Trial Limitations:**
 - Usage limits may apply (check trial terms)
 - Some enterprise features may be restricted
-     - Lite (Free tier with limitations)
-     - Standard (Pay-as-you-go)
-     - Enterprise (Contact IBM)
-   - **Service name**: Enter a descriptive name (e.g., "wxo-bobathon-labs")
-   - **Resource group**: Select or create a resource group
-
-4. **Create Service**
-   - Review your configuration
-   - Click "Create"
-   - Wait for provisioning to complete
 
 ---
 

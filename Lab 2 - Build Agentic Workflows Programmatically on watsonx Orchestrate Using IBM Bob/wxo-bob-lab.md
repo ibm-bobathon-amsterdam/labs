@@ -176,6 +176,12 @@ Install the watsonx Orchestrate ADK extension that enables the development and d
 
 6. Select the environment and click **Activate**. Enter your API key when you are prompted.
 
+   > **Tip:** You can store your credentials in a `.env` file for easier management. Copy the `.env.example` file to `.env` and fill in your actual values:
+   > ```bash
+   > cp .env.example .env
+   > ```
+   > Then edit `.env` with your watsonx Orchestrate API key and service URL.
+
 ![API key prompt](images/20-api-key-prompt.png)
 
 7. When the environment becomes active, Bob shows all the agents and tools that exist in that environment.
@@ -339,9 +345,19 @@ Ask Bob to deploy the agentic workflow tool and agent YAML file by importing the
 
 1. Click the **watsonx tile** on the left sidebar.
 
-2. In the **Environment Manager**, configure access to your watsonx Orchestrate environment and click **Activate**. Enter your API key when the system prompts you. You already configured this environment in Step 2. You are now reactivating it so Bob can deploy the agentic workflow and the agent.
+2. In the **Environment Manager**, reactivate your watsonx Orchestrate environment:
+   
+   **Why reactivate?** Although you configured this environment in Step 2, the watsonx Orchestrate ADK extension requires an active authenticated session to deploy agents and workflows. Reactivating ensures Bob has the necessary permissions to execute deployment commands.
+   
+   - Select your environment from the list
+   - Click **Activate**
+   - Enter your API key when prompted (this authenticates the ADK CLI tools)
+   
+   The environment status will change to "Active" with a green indicator once authentication succeeds.
 
    > **Note:** If you are using the watsonx Orchestrate Developer Edition, make sure your local environment is running before you continue.
+   
+   > **Tip:** Your API key is stored securely in a `.env` file in your workspace. See the `.env.example` file for the required format.
 
 3. Give Bob the following deployment instruction:
 

@@ -54,7 +54,13 @@ Extract Structured Data → Validate with KVP Schema → Return JSON Output
 
 **⚠️ Important**: Complete these setup guides before starting this lab:
 
-### Required Setup (Complete in Order)
+### Access Options
+
+Choose the option that applies to you:
+
+#### Option 1: Self-Paced Learning (Free Trial)
+
+For individual learners using the watsonx Orchestrate free trial:
 
 1. **[Environment Setup Guide](Prerequisites/environment-setup.md)** (~30-45 min)
    - ✅ Python 3.11+ installed
@@ -62,13 +68,29 @@ Extract Structured Data → Validate with KVP Schema → Return JSON Output
    - ✅ watsonx Orchestrate ADK installed
    - ✅ MCP servers configured
 
-2. **[watsonx Orchestrate Signup Guide](Prerequisites/watsonx-orchestrate-signup.md)** (~15-20 min)
-   - ✅ IBM Cloud account created
-   - ✅ watsonx Orchestrate service provisioned
+2. **[watsonx Orchestrate Free Trial Signup](Prerequisites/watsonx-orchestrate-signup.md)** (~10-15 min)
+   - ✅ Free trial account created
+   - ✅ watsonx Orchestrate instance provisioned
    - ✅ API credentials generated
    - ✅ ADK environment configured and activated
 
 **👉 [Start with Prerequisites →](Prerequisites/)**
+
+#### Option 2: Instructor-Led Workshop (TechZone)
+
+For Business Partners and clients participating in instructor-led workshops:
+
+1. **[Create Your IBMid](ibmid-registration.md)** (~5 min)
+   - ✅ IBMid created for TechZone access
+   - ✅ Email verified
+   - ✅ Ready to receive workshop invitation
+
+2. **Wait for instructor invitation** to the pre-configured TechZone environment
+3. **Follow workshop-specific instructions** provided by your instructor
+
+**👉 [IBMid Registration Guide →](ibmid-registration.md)**
+
+> **Note**: IBM employees already have an IBMid and can skip the registration step.
 
 ### Quick Verification
 

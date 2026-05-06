@@ -194,22 +194,22 @@ This rule improves accuracy and keeps Bob aligned with approved ADK patterns. It
 
 Using Bob rules that point to the implementation guide, together with the MCP documentation, gives Bob a stable foundation for planning and coding. The rules capture the best practices, patterns, and examples that Bob should follow across projects. The MCP documentation provides the official commands and configuration details when Bob needs exact syntax. This approach keeps Bob aligned with expected practices while still allowing it to request full documentation only when deeper technical details are needed. Using both together reduces confusion, lowers context load, and avoids incorrect assumptions.
 
-The guidance is separated into two files: a reference guide and a rules file. `wxo-implementation-guide.md` is a detailed implementation guide that Bob can request when more context is needed. You see an approval prompt when this happens. `wxo-development.md` (saved in `.bob/rules/`) is a concise, always-on rule that Bob automatically applies across all modes. This rule has access to both the implementation guide and the watsonx Orchestrate documentation MCP server. This structure keeps the active rule context small while giving Bob access to complete, curated information whenever necessary.
+The guidance is separated into two files: a reference guide and a rules file. [`wxo-implementation-guide.md`](wxo-implementation-guide.md) is a detailed implementation guide that Bob can request when more context is needed. You see an approval prompt when this happens. [`wxo-development.md`](.bob/rules/wxo-development.md) (saved in `.bob/rules/`) is a concise, always-on rule that Bob automatically applies across all modes. This rule has access to both the implementation guide and the watsonx Orchestrate documentation MCP server. This structure keeps the active rule context small while giving Bob access to complete, curated information whenever necessary.
 
 | File | Purpose |
 |------|---------|
-| `wxo-implementation-guide.md` (root) | Comprehensive reference guide Bob reads on demand |
-| `.bob/rules/wxo-development.md` | Concise always-on rule applied automatically across all modes |
+| [`wxo-implementation-guide.md`](wxo-implementation-guide.md) (root) | Comprehensive reference guide Bob reads on demand |
+| [`.bob/rules/wxo-development.md`](.bob/rules/wxo-development.md) | Concise always-on rule applied automatically across all modes |
 
 **Steps:**
 
 > **Note:** These files are included in this repository. If you cloned this repo, they're already available. Otherwise, download them from the [IBM OIC Agentic AI Tutorials repository](https://github.com/IBM/oic-i-agentic-ai-tutorials/tree/main/bob-wxo-dev).
 
-1. Save the `wxo-implementation-guide.md` to the root directory of your workspace with the same name.
+1. Save the [`wxo-implementation-guide.md`](wxo-implementation-guide.md) to the root directory of your workspace with the same name.
 
 2. Create a `rules` directory in the `.bob` folder. This directory stores all rules that Bob must follow in this workspace.
 
-3. Create a new file named `wxo-development.md` in `.bob/rules/`. Copy and paste the content from GitHub to your `wxo-development.md` file and save it.
+3. Create a new file named [`wxo-development.md`](.bob/rules/wxo-development.md) in `.bob/rules/`. Copy and paste the content from GitHub to your `wxo-development.md` file and save it.
 
 ![wxo-development.md rule file in Bob IDE](images/05-bob-rule-wxo-development.png)
 
@@ -255,7 +255,7 @@ Required Fields to Extract:
 
 ![Agent requirements submitted to Bob](images/07-bob-prompt-sent.png)
 
-3. Based on the Bob rule, Bob requests access to read `wxo-implementation-guide.md` so it can follow the best practices. Bob may also request access to other files if needed. Click **Approve**.
+3. Based on the Bob rule, Bob requests access to read [`wxo-implementation-guide.md`](wxo-implementation-guide.md) so it can follow the best practices. Bob may also request access to other files if needed. Click **Approve**.
 
 ![Bob requests access to implementation guide](images/08-bob-approve-file.png)
 

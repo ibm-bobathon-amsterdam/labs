@@ -232,14 +232,6 @@ orchestrate --version
 
 Ensure you have the latest version installed.
 
-### Test 4: Verify in VS Code
-
-1. **Open VS Code with Bob**
-2. **Click the watsonx extension** in the sidebar
-3. **Click "Initialize Workspace"**
-4. **Verify your environment** appears in the Environment Manager
-5. **Click "Activate"** to connect Bob to your environment
-
 ---
 
 ## Troubleshooting

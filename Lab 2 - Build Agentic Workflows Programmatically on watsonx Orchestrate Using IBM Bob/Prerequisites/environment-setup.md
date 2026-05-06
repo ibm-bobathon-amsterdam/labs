@@ -133,13 +133,30 @@ python --version
 
 ## Install IBM Bob IDE
 
-IBM Bob is an AI-powered development assistant integrated into Visual Studio Code.
+IBM Bob is an AI-powered development assistant. You have two options:
 
-### Prerequisites
+### Option 1: IBM Bob Web Trial (Recommended - Easiest)
 
+**No installation required!** Use Bob directly in your browser:
+
+1. **Visit**: [https://bob.ibm.com/trial](https://bob.ibm.com/trial)
+2. **Sign in** with your IBM ID
+3. **Start using Bob** immediately in the web interface
+
+**Advantages:**
+- ✅ No software installation needed
+- ✅ Works on any device with a browser
+- ✅ Instant access
+- ✅ Perfect for this lab
+
+### Option 2: VS Code Extension (For Local Development)
+
+If you prefer working in VS Code:
+
+**Prerequisites:**
 - Visual Studio Code installed ([download here](https://code.visualstudio.com/))
 
-### Installation Steps
+**Installation Steps:**
 
 1. **Open Visual Studio Code**
 
@@ -165,6 +182,11 @@ IBM Bob is an AI-powered development assistant integrated into Visual Studio Cod
 
 ### Verify Bob Installation
 
+**For Web Trial:**
+- You should see the Bob chat interface at [bob.ibm.com/trial](https://bob.ibm.com/trial)
+- Try asking Bob a simple question to test functionality
+
+**For VS Code Extension:**
 - Look for the Bob icon in the VS Code sidebar
 - Open a new chat with Bob to test functionality
 

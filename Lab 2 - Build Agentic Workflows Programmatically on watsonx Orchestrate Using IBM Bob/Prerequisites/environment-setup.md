@@ -156,49 +156,15 @@ IBM Bob is an AI-powered development assistant.
 
 The Agent Development Kit (ADK) provides CLI tools for building and deploying agents.
 
-### Installation Options
+**📄 For detailed ADK installation instructions, please refer to:**
 
-Choose one of the following methods:
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
-#### Option 1: System-wide Installation (Recommended for Beginners)
+This PDF contains the complete, authoritative guide for installing and configuring the watsonx Orchestrate ADK.
 
-```bash
-pip install ibm-watsonx-orchestrate
-```
+### Quick Verification
 
-#### Option 2: Virtual Environment (Recommended for Isolation)
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-# Install ADK
-pip install ibm-watsonx-orchestrate
-```
-
-#### Option 3: Using uv (Modern Approach)
-
-```bash
-# Initialize project
-uv init my-wxo-project
-cd my-wxo-project
-
-# Add ADK as dependency
-uv add ibm-watsonx-orchestrate
-
-# Activate environment
-source .venv/bin/activate  # macOS/Linux
-# or
-.venv\Scripts\activate.ps1  # Windows PowerShell
-```
-
-### Verify ADK Installation
+After following the PDF instructions, verify your installation:
 
 ```bash
 orchestrate --version
@@ -212,103 +178,11 @@ You should see the ADK version number.
 
 Model Context Protocol (MCP) servers enable Bob to access watsonx Orchestrate documentation and tools.
 
-### Step 1: Create Bob Configuration Directory
+**📄 For detailed MCP server configuration instructions, please refer to:**
 
-```bash
-# Navigate to your project directory
-cd /path/to/your/project
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
-# Create .bob directory
-mkdir .bob
-```
-
-### Step 2: Create MCP Configuration File
-
-Create a file named `mcp.json` in the `.bob` directory:
-
-```bash
-# On macOS/Linux
-touch .bob/mcp.json
-
-# On Windows
-type nul > .bob\mcp.json
-```
-
-### Step 3: Add MCP Server Configuration
-
-Edit `.bob/mcp.json` and add the following content:
-
-**Important**: Replace `<your /absolute/path/to/project>` with your actual project path.
-
-```json
-{
-  "mcpServers": {
-    "watsonx-orchestrate-adk-docs": {
-      "command": "uvx",
-      "args": [
-        "mcp-proxy",
-        "--transport",
-        "streamablehttp",
-        "https://developer.watson-orchestrate.ibm.com/mcp"
-      ]
-    },
-    "watsonx-orchestrate-adk": {
-      "command": "uvx",
-      "args": ["ibm-watsonx-orchestrate-mcp-server"],
-      "env": {
-        "WXO_MCP_WORKING_DIRECTORY": "<your /absolute/path/to/project>",
-        "WXO_MCP_DEBUG": ""
-      },
-      "timeout": 300
-    }
-  }
-}
-```
-
-### Example Configuration
-
-For a project at `/Users/john/projects/wxo-labs`:
-
-```json
-{
-  "mcpServers": {
-    "watsonx-orchestrate-adk-docs": {
-      "command": "uvx",
-      "args": [
-        "mcp-proxy",
-        "--transport",
-        "streamablehttp",
-        "https://developer.watson-orchestrate.ibm.com/mcp"
-      ]
-    },
-    "watsonx-orchestrate-adk": {
-      "command": "uvx",
-      "args": ["ibm-watsonx-orchestrate-mcp-server"],
-      "env": {
-        "WXO_MCP_WORKING_DIRECTORY": "/Users/john/projects/wxo-labs",
-        "WXO_MCP_DEBUG": ""
-      },
-      "timeout": 300
-    }
-  }
-}
-```
-
-### Step 4: Install uvx (if not already installed)
-
-The MCP servers use `uvx` to run Python packages:
-
-```bash
-# Install uv (includes uvx)
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# Verify installation
-uvx --version
-```
-
-### Step 5: Restart VS Code
-
-Close and reopen VS Code to load the MCP configuration.
+This PDF contains the complete, authoritative guide for configuring MCP servers for Bob integration.
 
 ---
 

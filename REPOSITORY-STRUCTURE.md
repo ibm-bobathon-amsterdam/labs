@@ -10,15 +10,14 @@ bobathon-amsterdam-labs/
 ├── .gitignore                         # Git ignore rules
 ├── REPOSITORY-STRUCTURE.md            # This file
 │
-└── Lab2 - watsonx Orchestrate/        # Lab 2: Agentic Workflows
+└── Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/
     ├── Prerequisites/                 # Setup guides (complete first)
     │   ├── README.md                  # Prerequisites overview
     │   ├── environment-setup.md       # Python, Bob IDE, ADK, MCP setup
-    │   └── watsonx-orchestrate-signup.md  # IBM Cloud & wxO provisioning
+    │   └── watsonx-orchestrate-signup.md  # Free trial signup
     ├── README.md                      # Lab overview and objectives
     ├── wxo-bob-lab.md                 # Complete step-by-step tutorial
-    ├── env setup instructions.pdf     # Additional setup reference
-    ├── watsonx-orchestrate-trial-signup.md  # Trial signup guide
+    ├── ibmid-registration.md          # IBMid creation for TechZone
     └── images/                        # 29 tutorial screenshots
         ├── 01-architecture-diagram.png
         ├── 02-architecture-table.png
@@ -80,9 +79,9 @@ graph TD
 | `README.md` | Main repository overview, lab listings, getting started guide |
 | `.gitignore` | Specifies files/folders to exclude from version control |
 | `REPOSITORY-STRUCTURE.md` | This file - visual guide to repository organization |
-| `Lab2 - watsonx Orchestrate/` | Complete Lab 2 with prerequisites and tutorial |
+| `Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/` | Complete Lab 2 with prerequisites and tutorial |
 
-### Lab 2 - watsonx Orchestrate Folder
+### Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob
 
 #### Prerequisites Subfolder
 
@@ -90,7 +89,7 @@ graph TD
 |------|---------|------|
 | `README.md` | Prerequisites overview and quick start checklist | 5 min |
 | `environment-setup.md` | Install Python, Bob IDE, ADK, configure MCP servers | 30-45 min |
-| `watsonx-orchestrate-signup.md` | IBM Cloud signup, service provisioning, API setup | 15-20 min |
+| `watsonx-orchestrate-signup.md` | Free trial signup and API setup | 10-15 min |
 
 **Total Setup Time**: ~45-65 minutes
 
@@ -98,10 +97,9 @@ graph TD
 
 | File | Purpose | Lines |
 |------|---------|-------|
-| `README.md` | Lab overview, objectives, architecture, prerequisites | 149 |
+| `README.md` | Lab overview, objectives, architecture, prerequisites | 203 |
 | `wxo-bob-lab.md` | Complete step-by-step tutorial with 10 sections | 336 |
-| `env setup instructions.pdf` | Additional setup reference document | - |
-| `watsonx-orchestrate-trial-signup.md` | Detailed trial signup instructions | - |
+| `ibmid-registration.md` | IBMid creation guide for TechZone access | 168 |
 | `images/` | 29 screenshots documenting each tutorial step | - |
 
 **Lab Duration**: ~60-75 minutes
@@ -119,8 +117,7 @@ graph TD
 - Troubleshooting
 
 **watsonx Orchestrate Signup Guide** covers:
-- IBM Cloud account creation
-- Service provisioning (free trial & paid)
+- Free trial signup
 - Accessing watsonx Orchestrate
 - Generating API credentials
 - Configuring ADK environment
@@ -153,17 +150,17 @@ graph TD
 ### For First-Time Users
 
 1. **Start**: Read main [README.md](README.md)
-2. **Navigate**: Go to [Lab 2](Lab2%20-%20watsonx%20Orchestrate%20/)
-3. **Setup**: Complete [Prerequisites](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/)
-   - [Environment Setup](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/environment-setup.md)
-   - [watsonx Orchestrate Signup](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/watsonx-orchestrate-signup.md)
-4. **Learn**: Follow the [Tutorial](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)
+2. **Navigate**: Go to [Lab 2](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/)
+3. **Setup**: Complete [Prerequisites](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/Prerequisites/)
+   - [Environment Setup](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/Prerequisites/environment-setup.md)
+   - [watsonx Orchestrate Signup](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/Prerequisites/watsonx-orchestrate-signup.md)
+4. **Learn**: Follow the [Tutorial](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/wxo-bob-lab.md)
 
 ### For Returning Users
 
-- **Quick Reference**: [Prerequisites README](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/README.md)
+- **Quick Reference**: [Prerequisites README](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/Prerequisites/README.md)
 - **Troubleshooting**: Check individual guide troubleshooting sections
-- **Lab Access**: Direct link to [Lab 2 Tutorial](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)
+- **Lab Access**: Direct link to [Lab 2 Tutorial](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/wxo-bob-lab.md)
 
 ## Key Features
 
@@ -210,14 +207,14 @@ This repository structure is designed to accommodate additional labs:
 
 ```
 bobathon-amsterdam-labs/
-├── Lab1 - [Topic]/              # Future lab
-│   └── Prerequisites/           # Lab-specific setup
-├── Lab2 - watsonx Orchestrate/  # Current lab
-│   └── Prerequisites/           # Lab-specific setup
-├── Lab3 - [Topic]/              # Future lab
-│   └── Prerequisites/           # Lab-specific setup
-└── Lab4 - [Topic]/              # Future lab
-    └── Prerequisites/           # Lab-specific setup
+├── Lab 1 - [Topic]/              # Future lab
+│   └── Prerequisites/            # Lab-specific setup
+├── Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/
+│   └── Prerequisites/            # Lab-specific setup
+├── Lab 3 - [Topic]/              # Future lab
+│   └── Prerequisites/            # Lab-specific setup
+└── Lab 4 - [Topic]/              # Future lab
+    └── Prerequisites/            # Lab-specific setup
 ```
 
 Each lab will:
@@ -231,8 +228,8 @@ Each lab will:
 ## Quick Links
 
 - 📖 [Main README](README.md)
-- 🚀 [Lab 2: Agentic Workflows](Lab2%20-%20watsonx%20Orchestrate%20/)
-- 🔧 [Lab 2 Prerequisites](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/)
+- 🚀 [Lab 2: Build Agentic Workflows Programmatically](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/)
+- 🔧 [Lab 2 Prerequisites](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/Prerequisites/)
 - 📚 [watsonx Orchestrate Docs](https://developer.watson-orchestrate.ibm.com)
 - 💡 [IBM Developer](https://developer.ibm.com)
 

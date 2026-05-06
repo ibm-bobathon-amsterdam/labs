@@ -10,11 +10,11 @@ IBM Bob is an AI-powered development assistant that helps developers create, dep
 
 ## Available Labs
 
-### [Lab 2: Build Agentic Workflows with watsonx Orchestrate](Lab2%20-%20watsonx%20Orchestrate%20/)
+### [Lab 2: Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/)
 
 **Focus**: Programmatic agent development using IBM Bob and watsonx Orchestrate ADK
 
-**🚀 [START LAB 2 NOW →](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md)**
+**🚀 [START LAB 2 NOW →](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/wxo-bob-lab.md)**
 
 **What You'll Learn:**
 - Configure Bob with Model Context Protocol (MCP) servers for watsonx Orchestrate
@@ -40,17 +40,17 @@ An automated **Expense Report Agent** that processes invoice documents (PDFs/ima
 **Time Estimate**: 60-75 minutes
 
 **Prerequisites:**
-- Complete the [Prerequisites setup guides](Lab2%20-%20watsonx%20Orchestrate%20/Prerequisites/) first
+- Complete the [Prerequisites setup guides](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/Prerequisites/) first
 - IBM Bob IDE installed and configured
 - watsonx Orchestrate access (local or IBM Cloud SaaS)
 - Python environment with pip
 
 **Lab Materials:**
-- 📄 [Complete Tutorial](Lab2%20-%20watsonx%20Orchestrate%20/wxo-bob-lab.md) (336 lines, 10 sections)
-- 📖 [Lab README](Lab2%20-%20watsonx%20Orchestrate%20/README.md)
+- 📄 [Complete Tutorial](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/wxo-bob-lab.md) (336 lines, 10 sections)
+- 📖 [Lab README](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/README.md)
 - 🖼️ 29 step-by-step screenshots
 
-[**Start Lab 2 →**](Lab2%20-%20watsonx%20Orchestrate%20/)
+[**Start Lab 2 →**](Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/)
 
 ---
 
@@ -74,7 +74,7 @@ Each lab includes:
 
 ```
 bobathon-amsterdam-labs/
-└── Lab2 - watsonx Orchestrate/    # Agentic workflows lab
+└── Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/
     ├── Prerequisites/             # Setup guides (complete first)
     │   ├── environment-setup.md
     │   └── watsonx-orchestrate-signup.md

@@ -63,7 +63,7 @@ You will build an agentic workflow that extracts structured data from airline in
 
 ## 3. Prerequisites
 
-- You have completed the [wxO – Bob environment setup guide](https://developer.watson-orchestrate.ibm.com) to prepare your Bob IDE properly.
+- You have completed the [wxO – Bob environment setup guide](Prerequisites/environment-setup.md) to prepare your Bob IDE properly.
 
 ---
 

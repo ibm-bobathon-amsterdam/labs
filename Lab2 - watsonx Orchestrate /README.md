@@ -208,6 +208,8 @@ After completing this lab, you will have:
 
 ## Getting Started
 
-To begin this lab, open `wxo-bob-lab.md` and follow the step-by-step instructions. Each section includes detailed explanations and screenshots to guide you through the process.
+To begin this lab, open **[wxo-bob-lab.md](wxo-bob-lab.md)** and follow the step-by-step instructions. Each section includes detailed explanations and screenshots to guide you through the process.
+
+**[🚀 Start the Lab Now →](wxo-bob-lab.md)**
 
 **Happy Building! 🚀**

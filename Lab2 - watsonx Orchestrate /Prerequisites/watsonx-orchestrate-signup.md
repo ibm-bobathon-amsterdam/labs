@@ -1,16 +1,15 @@
-# watsonx Orchestrate Signup and Configuration Guide
+# watsonx Orchestrate Free Trial Signup and Configuration
 
-Complete guide for signing up for IBM watsonx Orchestrate and configuring your environment for agent development.
+Quick guide for signing up for the watsonx Orchestrate free trial and configuring your environment for agent development.
 
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Sign Up for IBM Cloud](#sign-up-for-ibm-cloud)
-3. [Provision watsonx Orchestrate Service](#provision-watsonx-orchestrate-service)
-4. [Access watsonx Orchestrate](#access-watsonx-orchestrate)
-5. [Generate API Credentials](#generate-api-credentials)
-6. [Configure ADK Environment](#configure-adk-environment)
-7. [Verify Configuration](#verify-configuration)
+2. [Sign Up for watsonx Orchestrate Free Trial](#sign-up-for-watsonx-orchestrate-free-trial)
+3. [Access watsonx Orchestrate](#access-watsonx-orchestrate)
+4. [Generate API Credentials](#generate-api-credentials)
+5. [Configure ADK Environment](#configure-adk-environment)
+6. [Verify Configuration](#verify-configuration)
 
 ---
 
@@ -18,86 +17,75 @@ Complete guide for signing up for IBM watsonx Orchestrate and configuring your e
 
 This guide walks you through:
 
-- Creating an IBM Cloud account
-- Provisioning a watsonx Orchestrate instance
+- Signing up for watsonx Orchestrate free trial
+- Accessing your watsonx Orchestrate instance
 - Generating API credentials
 - Configuring the ADK to connect to your instance
 
-**Estimated Time**: 15-20 minutes
+**Estimated Time**: 10-15 minutes
 
 **Prerequisites**:
 - ✅ Completed [Environment Setup Guide](environment-setup.md)
-- ✅ Valid email address for IBM Cloud account
+- ✅ Valid email address
 
 ---
 
-## Sign Up for IBM Cloud
+## Sign Up for watsonx Orchestrate Free Trial
 
-### Step 1: Create IBM Cloud Account
+### Step 1: Access Free Trial Registration
 
-1. **Visit IBM Cloud Registration**
-   - Go to [cloud.ibm.com/registration](https://cloud.ibm.com/registration)
+1. **Visit the Free Trial Page**
+   - Go to: **[https://www.ibm.com/account/reg/us-en/signup?formid=urx-52753](https://www.ibm.com/account/reg/us-en/signup?formid=urx-52753)**
 
-2. **Enter Your Information**
-   - Email address
-   - First and last name
-   - Country/Region
-   - Password (must meet security requirements)
+2. **Complete Registration Form**
+   - Enter your business email address
+   - Fill in your personal information:
+     - First and last name
+     - Company name
+     - Country/Region
+     - Phone number
+   - Create a password (must meet security requirements)
 
-3. **Accept Terms and Conditions**
-   - Review IBM Cloud Terms
+3. **Accept Terms**
+   - Review the IBM Terms and Conditions
    - Check the acceptance box
+   - Optionally subscribe to IBM communications
 
-4. **Complete Registration**
-   - Click "Create account"
+4. **Submit Registration**
+   - Click "Continue" or "Create account"
    - Check your email for verification link
    - Click the verification link to activate your account
 
-5. **Sign In**
-   - Go to [cloud.ibm.com](https://cloud.ibm.com)
-   - Sign in with your credentials
+### Step 2: Complete Trial Setup
 
-### Step 2: Verify Account Status
+1. **Sign In**
+   - After email verification, you'll be redirected to sign in
+   - Use your email and password
 
-After signing in, you should see the IBM Cloud dashboard. Your account is now ready for service provisioning.
+2. **Trial Provisioning**
+   - The system will automatically provision your watsonx Orchestrate instance
+   - This typically takes 2-5 minutes
+   - You'll receive an email when your instance is ready
 
----
+3. **Access Confirmation**
+   - Once provisioned, you'll see your watsonx Orchestrate dashboard
+   - Your free trial is now active!
 
-## Provision watsonx Orchestrate Service
+### Trial Details
 
-### Option 1: Free Trial (Recommended for Labs)
+**What's Included:**
+- Full access to watsonx Orchestrate features
+- Ability to create and deploy AI agents
+- Access to Agent Development Kit (ADK)
+- Community support
 
-1. **Access Free Trial Page**
-   - Visit [ibm.com/account/reg/us-en/signup?formid=urx-52753](https://www.ibm.com/account/reg/us-en/signup?formid=urx-52753)
-   - Or search for "watsonx Orchestrate free trial" on IBM.com
+**Trial Duration:**
+- Check the trial terms for current duration (typically 30-60 days)
+- No credit card required for trial
 
-2. **Start Free Trial**
-   - Click "Start your free trial"
-   - Sign in with your IBM Cloud account
-   - Follow the provisioning wizard
-
-3. **Configure Trial Instance**
-   - Select your region (choose closest to your location)
-   - Accept trial terms
-   - Click "Create"
-
-4. **Wait for Provisioning**
-   - Provisioning typically takes 2-5 minutes
-   - You'll receive an email when ready
-
-### Option 2: Standard Provisioning (Paid Plan)
-
-1. **Navigate to Catalog**
-   - From IBM Cloud dashboard, click "Catalog"
-   - Or go to [cloud.ibm.com/catalog](https://cloud.ibm.com/catalog)
-
-2. **Search for watsonx Orchestrate**
-   - Type "watsonx Orchestrate" in the search bar
-   - Click on "watsonx Orchestrate" service
-
-3. **Configure Service**
-   - **Select a region**: Choose your preferred location
-   - **Select a pricing plan**: Choose based on your needs
+**Trial Limitations:**
+- Usage limits may apply (check trial terms)
+- Some enterprise features may be restricted
      - Lite (Free tier with limitations)
      - Standard (Pay-as-you-go)
      - Enterprise (Contact IBM)
@@ -113,32 +101,30 @@ After signing in, you should see the IBM Cloud dashboard. Your account is now re
 
 ## Access watsonx Orchestrate
 
-### Step 1: Locate Your Service Instance
+### Step 1: Access Your Instance
 
-1. **Open IBM Cloud Dashboard**
-   - Go to [cloud.ibm.com](https://cloud.ibm.com)
-   - Sign in if needed
+1. **Check Your Email**
+   - Look for the welcome email from IBM watsonx Orchestrate
+   - The email contains your instance access link
 
-2. **Navigate to Resource List**
-   - Click the hamburger menu (☰) in the top-left
-   - Select "Resource list"
-   - Or go directly to [cloud.ibm.com/resources](https://cloud.ibm.com/resources)
+2. **Click the Access Link**
+   - Click the "Launch watsonx Orchestrate" link in the email
+   - Or use the direct URL provided in your trial confirmation
 
-3. **Find watsonx Orchestrate**
-   - Expand "AI / Machine Learning" section
-   - Look for your watsonx Orchestrate instance
-   - Click on the instance name
+3. **Sign In**
+   - Use the email and password you created during registration
+   - You'll be taken to your watsonx Orchestrate dashboard
 
-### Step 2: Launch watsonx Orchestrate
+### Step 2: First-Time Setup
 
-1. **From the Service Details Page**
-   - Click the "Launch watsonx Orchestrate" button
-   - A new tab will open with the watsonx Orchestrate interface
-
-2. **First-Time Setup** (if prompted)
-   - Complete any initial setup wizards
+1. **Complete Initial Setup** (if prompted)
    - Accept terms of service
    - Configure basic preferences
+   - Complete any welcome tutorials (optional)
+
+2. **Explore the Dashboard**
+   - Familiarize yourself with the interface
+   - You're now ready to generate API credentials
 
 ---
 
@@ -176,17 +162,13 @@ API credentials are required to connect the ADK to your watsonx Orchestrate inst
    - In the API details tab
    - Click the "Generate API key" button
 
-2. **Redirect to IBM Cloud IAM**
-   - You'll be redirected to IBM Cloud Identity and Access Management
-   - This is the secure way to create API keys
-
-3. **Create API Key**
-   - Click "Create" button
+2. **Create API Key**
+   - You may be prompted to create an API key name
    - Enter a descriptive name (e.g., "wxo-adk-bobathon-labs")
-   - Add a description (e.g., "API key for ADK development in Bobathon labs")
-   - Click "Create"
+   - Add a description (optional, e.g., "API key for ADK development in Bobathon labs")
+   - Click "Create" or "Generate"
 
-4. **Copy and Save API Key**
+3. **Copy and Save API Key**
    - **IMPORTANT**: The API key is shown only once
    - Click "Copy" to copy the key
    - **Save it securely** in a password manager or secure note
@@ -203,10 +185,9 @@ API credentials are required to connect the ADK to your watsonx Orchestrate inst
 - Delete unused keys
 
 ⚠️ **Key Limitations**:
-- IBM Cloud accounts: No specific limit
-- AWS-hosted instances: Maximum 10 API keys
 - Keys cannot be edited or retrieved after creation
 - Deleted keys cannot be recovered
+- Check your trial terms for any API key limits
 
 ---
 
@@ -218,8 +199,6 @@ Now configure the ADK to connect to your watsonx Orchestrate instance.
 
 Open a terminal and run the following command:
 
-#### For IBM Cloud (SaaS)
-
 ```bash
 orchestrate env add <environment-name> \
   -u <service-instance-url> \
@@ -228,7 +207,7 @@ orchestrate env add <environment-name> \
 ```
 
 **Replace**:
-- `<environment-name>`: Choose a name (e.g., "wxo-prod", "bobathon-labs")
+- `<environment-name>`: Choose a name (e.g., "wxo-trial", "bobathon-labs")
 - `<service-instance-url>`: Paste the URL you copied earlier
 
 **Example**:
@@ -239,23 +218,7 @@ orchestrate env add bobathon-labs \
   --activate
 ```
 
-#### For AWS-Hosted Instances
-
-```bash
-orchestrate env add <environment-name> \
-  -u <service-instance-url> \
-  --type mcsp \
-  --activate
-```
-
-#### For On-Premises Installations
-
-```bash
-orchestrate env add <environment-name> \
-  -u <service-instance-url>
-```
-
-The ADK will automatically detect the authentication type for on-premises.
+**Note**: The free trial uses IBM Cloud authentication (`--type ibm_iam`).
 
 ### Step 2: Authenticate with API Key
 
@@ -335,7 +298,7 @@ Ensure you have the latest version installed.
 1. Verify you copied the complete API key
 2. Check for extra spaces or characters
 3. Generate a new API key and try again
-4. Ensure you're using the API key from watsonx Orchestrate settings, not IBM Cloud resource page
+4. Ensure you're using the API key from watsonx Orchestrate Settings > API details
 
 ### Issue: "Cannot Connect to Service"
 
@@ -362,17 +325,16 @@ orchestrate env add <name> -u <url> --type ibm_iam --activate
 **Symptoms**: Connection fails with authentication error
 
 **Solutions**:
-- For IBM Cloud: Use `--type ibm_iam`
-- For AWS: Use `--type mcsp`
-- For On-premises: Use `--type cpd` or let ADK auto-detect
+- For watsonx Orchestrate free trial: Use `--type ibm_iam`
+- If auto-detection fails, explicitly specify the type
 
-### Issue: "API Key Limit Reached" (AWS only)
+### Issue: "API Key Limit Reached"
 
 **Symptoms**: Cannot generate new API key
 
 **Solutions**:
 1. Delete unused API keys from Settings > API details
-2. Contact IBM Support if you need more keys
+2. Check your trial terms for API key limits
 3. Reuse existing keys if possible
 
 ---
@@ -414,11 +376,11 @@ orchestrate env remove <environment-name>
 
 ## Next Steps
 
-✅ **Environment Setup Complete!**
+✅ **watsonx Orchestrate Setup Complete!**
 
 You're now ready to start building agents:
 
-1. 🚀 [Start Lab 2: Build Agentic Workflows](../Lab2%20-%20watsonx%20Orchestrate%20/)
+1. 🚀 [Start Lab 2: Build Agentic Workflows](../)
 2. 📖 Review [watsonx Orchestrate ADK Documentation](https://developer.watson-orchestrate.ibm.com)
 3. 🎓 Explore [IBM Developer Tutorials](https://developer.ibm.com/tutorials/)
 
@@ -427,10 +389,10 @@ You're now ready to start building agents:
 ## Additional Resources
 
 - [watsonx Orchestrate Product Page](https://www.ibm.com/products/watsonx-orchestrate)
-- [IBM Cloud Documentation](https://cloud.ibm.com/docs)
 - [watsonx Orchestrate Free Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-52753)
-- [IBM Cloud Support](https://cloud.ibm.com/unifiedsupport/supportcenter)
+- [watsonx Orchestrate Documentation](https://developer.watson-orchestrate.ibm.com)
 - [ADK CLI Reference](https://developer.watson-orchestrate.ibm.com/cli/overview)
+- [IBM Developer](https://developer.ibm.com)
 
 ---
 

@@ -1,22 +1,22 @@
+<div align="center">
+
+<img src="images/bob-logo.png" alt="IBM Bob Logo" width="200"/>
+
+# IBM BOBATHON AMSTERDAM 🇳🇱
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
 ║   ██████╗  ██████╗ ██████╗  █████╗ ████████╗██╗  ██╗ ██████╗ ███╗   ██╗   ║
 ║   ██╔══██╗██╔═══██╗██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║   ║
 ║   ██████╔╝██║   ██║██████╔╝███████║   ██║   ███████║██║   ██║██╔██╗ ██║   ║
 ║   ██╔══██╗██║   ██║██╔══██╗██╔══██║   ██║   ██╔══██║██║   ██║██║╚██╗██║   ║
 ║   ██████╔╝╚██████╔╝██████╔╝██║  ██║   ██║   ██║  ██║╚██████╔╝██║ ╚████║   ║
 ║   ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ║
-║                                                                              ║
-║                        🤖 IBM Bobathon Amsterdam 🇳🇱                         ║
-║                                                                              ║
-║              Build Enterprise AI Solutions with IBM Bob                     ║
-║                   3 Hands-On Labs | 3-4 Hours Total                         ║
-║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<div align="center">
+### Build Enterprise AI Solutions with IBM Bob
+**3 Hands-On Labs | 3-4 Hours Total**
 
 ### 🚀 **AI-Powered Development** | 💻 **Full-Stack Apps** | 🤖 **Agentic Workflows** | 📊 **Event-Driven Systems**
 

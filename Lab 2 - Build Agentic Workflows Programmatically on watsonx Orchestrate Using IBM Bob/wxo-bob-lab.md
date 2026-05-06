@@ -75,8 +75,8 @@ The following figure created using Bob shows this architecture:
 
 Configure Bob to access the following watsonx Orchestrate MCP servers:
 
-- **watsonx Orchestrate ADK Docs**: Provides a tool that queries the watsonx Orchestrate ADK developer documentation. This gives Bob the context that is needed to understand how all watsonx Orchestrate ADK features work.
-- **watsonx Orchestrate ADK**: Give Bob direct access to all commands in the watsonx Orchestrate ADK. This allows Bob to create, import, or list agents, tools, MCP toolkits, knowledge bases, and connections. Bob can also export agents and Python tools into your workspace.
+- **watsonx Orchestrate ADK Docs**: Provides a tool that queries the [watsonx Orchestrate ADK developer documentation](https://developer.watson-orchestrate.ibm.com/docs). This gives Bob the context that is needed to understand how all watsonx Orchestrate ADK features work.
+- **watsonx Orchestrate ADK**: Give Bob direct access to all commands in the [watsonx Orchestrate ADK](https://developer.watson-orchestrate.ibm.com/docs). This allows Bob to create, import, or list agents, tools, MCP toolkits, knowledge bases, and connections. Bob can also export agents and Python tools into your workspace.
 
 ### Manual Configuration Approach
 
@@ -257,7 +257,7 @@ Required Fields to Extract:
 
 ![Bob requests access to implementation guide](images/08-bob-approve-file.png)
 
-4. Bob then requests access to watsonx Orchestrate ADK documentation MCP server to gather more context. Bob shares the task list afterward. Review the task list and click **Approve**.
+4. Bob then requests access to [watsonx Orchestrate ADK documentation](https://developer.watson-orchestrate.ibm.com/docs) MCP server to gather more context. Bob shares the task list afterward. Review the task list and click **Approve**.
 
 ![Bob task list ready for approval](images/09-bob-task-list.png)
 

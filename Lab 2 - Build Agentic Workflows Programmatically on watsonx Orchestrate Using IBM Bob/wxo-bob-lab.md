@@ -71,41 +71,16 @@ You will build an agentic workflow that extracts structured data from airline in
 
 > **Skip this section** if you already set up the wxO MCP servers using the environment setup guide.
 
-Configure Bob to access the following watsonx Orchestrate MCP servers:
+**📄 For detailed MCP server configuration instructions, please refer to:**
 
-- **watsonx Orchestrate ADK Docs** – Queries the wxO ADK developer documentation.
-- **watsonx Orchestrate ADK** – Gives Bob direct access to all ADK commands.
+**[env setup instructions.pdf](env%20setup%20instructions%20.pdf)**
 
-**Steps:**
+This PDF contains the complete, authoritative guide for configuring the watsonx Orchestrate MCP servers in Bob, including:
 
-1. Open the IBM Bob IDE with the `wxo-agentic-workflow` workspace active.
-2. Create a new folder `.bob` to store all Bob-related configurations.
-3. Create a new file `mcp.json` in the `.bob` folder. Replace `<your /absolute/path/to/project>` with your own path.
+- **watsonx Orchestrate ADK Docs** – Queries the wxO ADK developer documentation
+- **watsonx Orchestrate ADK** – Gives Bob direct access to all ADK commands
 
-```json
-{
-  "mcpServers": {
-    "watsonx-orchestrate-adk-docs": {
-      "command": "uvx",
-      "args": [
-        "mcp-proxy",
-        "--transport",
-        "streamablehttp",
-        "https://developer.watson-orchestrate.ibm.com/mcp"
-      ]
-    },
-    "watsonx-orchestrate-adk": {
-      "command": "uvx",
-      "args": ["ibm-watsonx-orchestrate-mcp-server"],
-      "env": {
-        "WXO_MCP_WORKING_DIRECTORY": "<your /absolute/path/to/project>",
-        "WXO_MCP_DEBUG": ""
-      },
-      "timeout": 300
-    }
-  }
-}
-```
+The PDF includes step-by-step instructions for creating the `.bob/mcp.json` configuration file with the correct settings.
 
 ![mcp.json configured in Bob IDE](images/04-mcp-json-config.png)
 

@@ -185,54 +185,18 @@ API credentials are required to connect the ADK to your watsonx Orchestrate inst
 
 Now configure the ADK to connect to your watsonx Orchestrate instance.
 
-### Step 1: Add Environment to ADK
+**📄 For detailed ADK environment configuration instructions, please refer to:**
 
-Open a terminal and run the following command:
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
-```bash
-orchestrate env add <environment-name> \
-  -u <service-instance-url> \
-  --type ibm_iam \
-  --activate
-```
+This PDF contains the complete, authoritative guide for configuring the ADK environment with your watsonx Orchestrate instance.
 
-**Replace**:
-- `<environment-name>`: Choose a name (e.g., "wxo-trial", "bobathon-labs")
-- `<service-instance-url>`: Paste the URL you copied earlier
+### Quick Summary
 
-**Example**:
-```bash
-orchestrate env add bobathon-labs \
-  -u https://us-south.ml.cloud.ibm.com/ml/v1/instances/abc123 \
-  --type ibm_iam \
-  --activate
-```
-
-**Note**: The free trial uses IBM Cloud authentication (`--type ibm_iam`).
-
-### Step 2: Authenticate with API Key
-
-After adding the environment, you'll be prompted to enter your API key:
-
-```
-Enter your API key: 
-```
-
-**Paste the API key** you generated earlier and press Enter.
-
-**Note**: The key won't be visible as you type (for security).
-
-### Step 3: Verify Environment is Active
-
-```bash
-orchestrate env list
-```
-
-You should see your environment marked as active (with an asterisk *):
-
-```
-* bobathon-labs (ibm_iam)
-```
+You'll need:
+- The service instance URL you copied earlier
+- The API key you generated
+- To run the `orchestrate env add` command as detailed in the PDF
 
 ---
 
@@ -305,10 +269,7 @@ Ensure you have the latest version installed.
 **Symptoms**: `orchestrate env list` shows no environments
 
 **Solutions**:
-```bash
-# Re-add the environment
-orchestrate env add <name> -u <url> --type ibm_iam --activate
-```
+- Re-add the environment following the instructions in the [env setup instructions.pdf](../env%20setup%20instructions%20.pdf)
 
 ### Issue: "Wrong Authentication Type"
 
@@ -331,36 +292,16 @@ orchestrate env add <name> -u <url> --type ibm_iam --activate
 
 ## Managing Multiple Environments
 
-You can configure multiple watsonx Orchestrate environments (dev, test, prod):
+You can configure multiple watsonx Orchestrate environments (dev, test, prod).
 
-### Add Additional Environments
+**📄 For detailed instructions on managing multiple environments, please refer to:**
 
-```bash
-# Add development environment
-orchestrate env add wxo-dev -u <dev-url> --type ibm_iam
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
-# Add production environment
-orchestrate env add wxo-prod -u <prod-url> --type ibm_iam
-```
-
-### Switch Between Environments
-
-```bash
-# Activate development
-orchestrate env activate wxo-dev
-
-# Activate production
-orchestrate env activate wxo-prod
-
-# Check active environment
-orchestrate env list
-```
-
-### Remove an Environment
-
-```bash
-orchestrate env remove <environment-name>
-```
+This includes:
+- Adding additional environments
+- Switching between environments
+- Removing environments
 
 ---
 

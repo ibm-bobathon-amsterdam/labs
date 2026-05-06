@@ -203,8 +203,6 @@ The guidance is separated into two files: a reference guide and a rules file. [`
 
 **Steps:**
 
-> **Note:** These files are included in this repository. If you cloned this repo, they're already available. Otherwise, download them from the [IBM OIC Agentic AI Tutorials repository](https://github.com/IBM/oic-i-agentic-ai-tutorials/tree/main/bob-wxo-dev).
-
 1. Save the [`wxo-implementation-guide.md`](wxo-implementation-guide.md) to the root directory of your workspace with the same name.
 
 2. Create a `rules` directory in the `.bob` folder. This directory stores all rules that Bob must follow in this workspace.

@@ -34,11 +34,11 @@ Hosts a source topic inventory.transactions containing JSON transaction events f
 
 Hosts a derived topic inventory.availability that represents the current available quantity per SKU and branch.
 
-1. ksqlDB (stream processing). Continuously reads inventory.transactions, aggregates by sku and branch, and writes the latest availability to inventory.availability.
+2. ksqlDB (stream processing). Continuously reads inventory.transactions, aggregates by sku and branch, and writes the latest availability to inventory.availability.
 
-1. Kafka availability tool (MCP toolkit). Exposes get_sku_availability (sku, branch) for querying the current availability derived from Kafka.
+3. Kafka availability tool (MCP toolkit). Exposes get_sku_availability (sku, branch) for querying the current availability derived from Kafka.
 
-1. watsonx Orchestrate agents
+4. watsonx Orchestrate agents
 
 - SKU_Availability_Agent calls the availability tool to check stock in a specific branch.
 - Substitute_Finder_Agent uses enterprise product documents to recommend similar SKUs when the requested SKU is not available.

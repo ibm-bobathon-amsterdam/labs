@@ -9,7 +9,9 @@ Quick guide for signing up for the watsonx Orchestrate free trial and configurin
 3. [Access watsonx Orchestrate](#access-watsonx-orchestrate)
 4. [Generate API Credentials](#generate-api-credentials)
 5. [Configure ADK Environment](#configure-adk-environment)
-6. [Verify Configuration](#verify-configuration)
+6. [Troubleshooting](#troubleshooting)
+7. [Next Steps](#next-steps)
+8. [Additional Resources](#additional-resources)
 
 ---
 
@@ -245,21 +247,6 @@ You'll need:
 1. Delete unused API keys from Settings > API details
 2. Check your trial terms for API key limits
 3. Reuse existing keys if possible
-
----
-
-## Managing Multiple Environments
-
-You can configure multiple watsonx Orchestrate environments (dev, test, prod).
-
-**📄 For detailed instructions on managing multiple environments, please refer to:**
-
-**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
-
-This includes:
-- Adding additional environments
-- Switching between environments
-- Removing environments
 
 ---
 

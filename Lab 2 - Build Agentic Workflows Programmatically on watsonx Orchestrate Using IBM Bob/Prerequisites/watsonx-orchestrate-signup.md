@@ -200,40 +200,6 @@ You'll need:
 
 ---
 
-## Verify Configuration
-
-### Test 1: Check Environment Connection
-
-```bash
-orchestrate env info
-```
-
-Expected output:
-```
-Environment: bobathon-labs
-Type: ibm_iam
-URL: https://us-south.ml.cloud.ibm.com/ml/v1/instances/abc123
-Status: Active
-```
-
-### Test 2: List Agents
-
-```bash
-orchestrate agent list
-```
-
-This should connect to your instance and list any existing agents (may be empty for new instances).
-
-### Test 3: Check ADK Version
-
-```bash
-orchestrate --version
-```
-
-Ensure you have the latest version installed.
-
----
-
 ## Troubleshooting
 
 ### Issue: "Invalid API Key"

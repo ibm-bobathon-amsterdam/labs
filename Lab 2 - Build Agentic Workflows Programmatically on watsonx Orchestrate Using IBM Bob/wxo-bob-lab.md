@@ -1,6 +1,6 @@
-# Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob
+# Build agentic workflows with watsonx Orchestrate and IBM Bob
 
-*A hands-on guide for creating automated invoice-processing agentic workflows using IBM Bob to generate code, tools, and configuration for watsonx Orchestrate*
+*A hands-on guide to automate invoice processing with AI-powered workflows using IBM Bob to generate code, tools, and configuration for watsonx Orchestrate*
 
 **By** Allen Chan, Ahmed Azraq, Syeda Ameena Begum  
 **Published:** 09 February 2026 · IBM Developer  

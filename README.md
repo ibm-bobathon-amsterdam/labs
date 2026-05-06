@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="images/bob-logo.png" alt="IBM Bob Logo" width="200"/>
-
-# IBM BOBATHON AMSTERDAM 🇳🇱
+# 🤖 IBM BOBATHON AMSTERDAM 🇳🇱
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -15,7 +13,7 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-### Build Enterprise AI Solutions with IBM Bob
+### 🚀 Build Enterprise AI Solutions with IBM Bob
 **3 Hands-On Labs | 3-4 Hours Total**
 
 ### 🚀 **AI-Powered Development** | 💻 **Full-Stack Apps** | 🤖 **Agentic Workflows** | 📊 **Event-Driven Systems**

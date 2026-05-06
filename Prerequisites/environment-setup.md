@@ -1,0 +1,437 @@
+# Environment Setup Guide
+
+Complete guide for setting up your development environment for IBM Bob and watsonx Orchestrate labs.
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Install Python 3.11+](#install-python-311)
+3. [Install IBM Bob IDE](#install-ibm-bob-ide)
+4. [Install watsonx Orchestrate ADK](#install-watsonx-orchestrate-adk)
+5. [Configure MCP Servers](#configure-mcp-servers)
+6. [Verify Installation](#verify-installation)
+
+---
+
+## Overview
+
+This guide walks you through setting up all required tools for the Bobathon Amsterdam Labs. You'll install:
+
+- **Python 3.11+**: Required runtime for the watsonx Orchestrate ADK
+- **IBM Bob IDE**: AI-powered development assistant
+- **watsonx Orchestrate ADK**: Agent Development Kit for building AI agents
+- **MCP Servers**: Model Context Protocol servers for Bob integration
+
+**Estimated Time**: 30-45 minutes
+
+---
+
+## Install Python 3.11+
+
+The watsonx Orchestrate ADK requires Python 3.11 or later.
+
+### Check Current Version
+
+```bash
+python --version
+```
+
+If you have Python 3.11 or later, skip to the [next section](#install-ibm-bob-ide).
+
+### Windows
+
+1. Download the installer from the [official Python website](https://www.python.org/downloads/)
+2. Run the setup
+3. **Important**: Enable "Add Python to PATH" during installation
+4. The installer includes `pip` package manager
+
+**Alternative**: Use a Python version manager like [uv](https://github.com/astral-sh/uv) or [pyenv](https://github.com/pyenv/pyenv)
+
+### macOS
+
+Python usually comes pre-installed. To install a newer version:
+
+**Using Homebrew** (recommended):
+
+```bash
+# Install Homebrew if not already installed
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Python 3.11
+brew install python@3.11
+```
+
+**Alternative**: Use [uv](https://github.com/astral-sh/uv) or [pyenv](https://github.com/pyenv/pyenv)
+
+### Linux
+
+**Ubuntu/Debian**:
+
+```bash
+sudo apt-get update -y
+sudo apt-get install -y python3 python3-pip
+```
+
+**Fedora**:
+
+```bash
+sudo dnf update -y
+sudo dnf install -y python3 python3-pip
+```
+
+**Arch Linux**:
+
+```bash
+sudo pacman -Syu
+sudo pacman -S python python-pip
+```
+
+**Using uv** (if distribution packages are outdated):
+
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Verify installation
+uv --version
+
+# Install Python 3.11
+uv python install 3.11
+
+# Verify Python version
+uv python list
+```
+
+**Using pyenv**:
+
+```bash
+# Install pyenv dependencies first (Ubuntu/Debian)
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+# Install pyenv
+curl -fsSL https://pyenv.run | bash
+
+# Add to ~/.bashrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
+
+# Restart shell
+exec "$SHELL"
+
+# Install Python 3.11
+pyenv install 3.11
+pyenv global 3.11
+
+# Verify
+python --version
+```
+
+---
+
+## Install IBM Bob IDE
+
+IBM Bob is an AI-powered development assistant integrated into Visual Studio Code.
+
+### Prerequisites
+
+- Visual Studio Code installed ([download here](https://code.visualstudio.com/))
+
+### Installation Steps
+
+1. **Open Visual Studio Code**
+
+2. **Open Extensions Marketplace**
+   - Press `Ctrl + Shift + X` (Windows/Linux)
+   - Press `Cmd + Shift + X` (macOS)
+   - Or click the Extensions icon in the sidebar
+
+3. **Search for IBM Bob**
+   - Type "IBM Bob" in the search bar
+   - Look for the official IBM Bob extension
+
+4. **Install the Extension**
+   - Click "Install" on the IBM Bob extension
+   - Wait for installation to complete
+
+5. **Reload VS Code** (if prompted)
+
+6. **Sign In to IBM Bob**
+   - Click the Bob icon in the sidebar
+   - Follow the authentication prompts
+   - Sign in with your IBM ID
+
+### Verify Bob Installation
+
+- Look for the Bob icon in the VS Code sidebar
+- Open a new chat with Bob to test functionality
+
+---
+
+## Install watsonx Orchestrate ADK
+
+The Agent Development Kit (ADK) provides CLI tools for building and deploying agents.
+
+### Installation Options
+
+Choose one of the following methods:
+
+#### Option 1: System-wide Installation (Recommended for Beginners)
+
+```bash
+pip install ibm-watsonx-orchestrate
+```
+
+#### Option 2: Virtual Environment (Recommended for Isolation)
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install ADK
+pip install ibm-watsonx-orchestrate
+```
+
+#### Option 3: Using uv (Modern Approach)
+
+```bash
+# Initialize project
+uv init my-wxo-project
+cd my-wxo-project
+
+# Add ADK as dependency
+uv add ibm-watsonx-orchestrate
+
+# Activate environment
+source .venv/bin/activate  # macOS/Linux
+# or
+.venv\Scripts\activate.ps1  # Windows PowerShell
+```
+
+### Verify ADK Installation
+
+```bash
+orchestrate --version
+```
+
+You should see the ADK version number.
+
+---
+
+## Configure MCP Servers
+
+Model Context Protocol (MCP) servers enable Bob to access watsonx Orchestrate documentation and tools.
+
+### Step 1: Create Bob Configuration Directory
+
+```bash
+# Navigate to your project directory
+cd /path/to/your/project
+
+# Create .bob directory
+mkdir .bob
+```
+
+### Step 2: Create MCP Configuration File
+
+Create a file named `mcp.json` in the `.bob` directory:
+
+```bash
+# On macOS/Linux
+touch .bob/mcp.json
+
+# On Windows
+type nul > .bob\mcp.json
+```
+
+### Step 3: Add MCP Server Configuration
+
+Edit `.bob/mcp.json` and add the following content:
+
+**Important**: Replace `<your /absolute/path/to/project>` with your actual project path.
+
+```json
+{
+  "mcpServers": {
+    "watsonx-orchestrate-adk-docs": {
+      "command": "uvx",
+      "args": [
+        "mcp-proxy",
+        "--transport",
+        "streamablehttp",
+        "https://developer.watson-orchestrate.ibm.com/mcp"
+      ]
+    },
+    "watsonx-orchestrate-adk": {
+      "command": "uvx",
+      "args": ["ibm-watsonx-orchestrate-mcp-server"],
+      "env": {
+        "WXO_MCP_WORKING_DIRECTORY": "<your /absolute/path/to/project>",
+        "WXO_MCP_DEBUG": ""
+      },
+      "timeout": 300
+    }
+  }
+}
+```
+
+### Example Configuration
+
+For a project at `/Users/john/projects/wxo-labs`:
+
+```json
+{
+  "mcpServers": {
+    "watsonx-orchestrate-adk-docs": {
+      "command": "uvx",
+      "args": [
+        "mcp-proxy",
+        "--transport",
+        "streamablehttp",
+        "https://developer.watson-orchestrate.ibm.com/mcp"
+      ]
+    },
+    "watsonx-orchestrate-adk": {
+      "command": "uvx",
+      "args": ["ibm-watsonx-orchestrate-mcp-server"],
+      "env": {
+        "WXO_MCP_WORKING_DIRECTORY": "/Users/john/projects/wxo-labs",
+        "WXO_MCP_DEBUG": ""
+      },
+      "timeout": 300
+    }
+  }
+}
+```
+
+### Step 4: Install uvx (if not already installed)
+
+The MCP servers use `uvx` to run Python packages:
+
+```bash
+# Install uv (includes uvx)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Verify installation
+uvx --version
+```
+
+### Step 5: Restart VS Code
+
+Close and reopen VS Code to load the MCP configuration.
+
+---
+
+## Verify Installation
+
+### 1. Check Python Version
+
+```bash
+python --version
+# Expected: Python 3.11.x or higher
+```
+
+### 2. Check ADK Installation
+
+```bash
+orchestrate --version
+# Expected: Version number (e.g., 1.15.0)
+```
+
+### 3. Check Bob Integration
+
+1. Open VS Code
+2. Click the Bob icon in the sidebar
+3. Start a new chat
+4. Ask Bob: "Can you access watsonx Orchestrate documentation?"
+5. Bob should confirm access to MCP servers
+
+### 4. Test MCP Servers
+
+In Bob, try asking:
+```
+Search the watsonx Orchestrate documentation for "agent development"
+```
+
+Bob should be able to query the documentation through the MCP server.
+
+---
+
+## Troubleshooting
+
+### Python Not Found
+
+**Issue**: `python: command not found`
+
+**Solution**:
+- Ensure Python is in your PATH
+- Try `python3` instead of `python`
+- Reinstall Python with PATH option enabled
+
+### ADK Installation Fails
+
+**Issue**: `pip install ibm-watsonx-orchestrate` fails
+
+**Solution**:
+```bash
+# Upgrade pip first
+pip install --upgrade pip
+
+# Try installing again
+pip install ibm-watsonx-orchestrate
+```
+
+### MCP Servers Not Working
+
+**Issue**: Bob can't access MCP servers
+
+**Solution**:
+1. Verify `mcp.json` is in the `.bob` folder
+2. Check that the path in `WXO_MCP_WORKING_DIRECTORY` is absolute (not relative)
+3. Ensure `uvx` is installed: `uvx --version`
+4. Restart VS Code completely
+5. Check Bob's output panel for error messages
+
+### uvx Not Found
+
+**Issue**: `uvx: command not found`
+
+**Solution**:
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Reload shell
+source ~/.bashrc  # or ~/.zshrc on macOS
+```
+
+---
+
+## Next Steps
+
+Once your environment is set up:
+
+1. ✅ Complete the [watsonx Orchestrate Signup Guide](watsonx-orchestrate-signup.md)
+2. ✅ Start [Lab 2: Build Agentic Workflows](../Lab2%20-%20watsonx%20Orchestrate%20/)
+
+---
+
+## Additional Resources
+
+- [Python Official Documentation](https://docs.python.org/3/)
+- [watsonx Orchestrate ADK Documentation](https://developer.watson-orchestrate.ibm.com)
+- [IBM Bob Documentation](https://www.ibm.com/products/bob)
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [uv Documentation](https://docs.astral.sh/uv/)
+
+---
+
+**Need Help?** If you encounter issues not covered here, please refer to the official documentation or contact IBM Support.

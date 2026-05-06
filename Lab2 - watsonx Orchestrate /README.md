@@ -52,10 +52,38 @@ Extract Structured Data → Validate with KVP Schema → Return JSON Output
 
 ## Prerequisites
 
-- Completed wxO-Bob environment setup guide
-- IBM Bob IDE installed and configured
-- watsonx Orchestrate access (local or IBM Cloud SaaS)
-- Python environment with pip
+**⚠️ Important**: Complete these setup guides before starting this lab:
+
+### Required Setup (Complete in Order)
+
+1. **[Environment Setup Guide](../Prerequisites/environment-setup.md)** (~30-45 min)
+   - ✅ Python 3.11+ installed
+   - ✅ IBM Bob IDE extension installed in VS Code
+   - ✅ watsonx Orchestrate ADK installed
+   - ✅ MCP servers configured
+
+2. **[watsonx Orchestrate Signup Guide](../Prerequisites/watsonx-orchestrate-signup.md)** (~15-20 min)
+   - ✅ IBM Cloud account created
+   - ✅ watsonx Orchestrate service provisioned
+   - ✅ API credentials generated
+   - ✅ ADK environment configured and activated
+
+**👉 [Start with Prerequisites →](../Prerequisites/)**
+
+### Quick Verification
+
+Before proceeding, verify your setup:
+
+```bash
+# Check Python version
+python --version  # Should be 3.11+
+
+# Check ADK installation
+orchestrate --version
+
+# Check active environment
+orchestrate env info
+```
 
 ## Lab Structure
 

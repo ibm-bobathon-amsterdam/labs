@@ -6,6 +6,25 @@ Welcome to the IBM Bobathon Amsterdam Labs repository! This collection of hands-
 
 IBM Bob is an AI-powered development assistant that helps developers create, deploy, and manage applications more efficiently. Bob can generate code, create documentation, design architectures, and automate deployment workflows.
 
+## Prerequisites
+
+Before starting any lab, complete the setup guides in the [Prerequisites](Prerequisites/) folder:
+
+### 📋 [Setup Guides](Prerequisites/)
+
+1. **[Environment Setup](Prerequisites/environment-setup.md)** (30-45 min)
+   - Install Python 3.11+, IBM Bob IDE, and watsonx Orchestrate ADK
+   - Configure MCP servers for Bob integration
+
+2. **[watsonx Orchestrate Signup](Prerequisites/watsonx-orchestrate-signup.md)** (15-20 min)
+   - Create IBM Cloud account
+   - Provision watsonx Orchestrate service
+   - Generate API credentials and configure ADK
+
+**👉 [Start with Prerequisites →](Prerequisites/)**
+
+---
+
 ## Available Labs
 
 ### [Lab 2: Build Agentic Workflows with watsonx Orchestrate](Lab2%20-%20watsonx%20Orchestrate%20/)
@@ -59,13 +78,25 @@ An automated **Expense Report Agent** that processes invoice documents (PDFs/ima
 4. Follow the step-by-step tutorial
 5. Complete the hands-on exercises
 
-## Lab Structure
+## Repository Structure
+
+📁 **[View Complete Repository Structure →](REPOSITORY-STRUCTURE.md)**
 
 Each lab includes:
 - **README.md**: Lab overview, objectives, and prerequisites
 - **Tutorial**: Detailed step-by-step instructions
 - **Images**: Screenshots and diagrams
 - **Sample Code**: Reference implementations (where applicable)
+
+```
+bobathon-amsterdam-labs/
+├── Prerequisites/              # Setup guides (complete first)
+│   ├── environment-setup.md
+│   └── watsonx-orchestrate-signup.md
+└── Lab2 - watsonx Orchestrate/ # Agentic workflows lab
+    ├── wxo-bob-lab.md         # Complete tutorial
+    └── images/                 # 29 screenshots
+```
 
 ## Support and Resources
 

@@ -121,19 +121,6 @@ Understand Bob's role at each stage and why it matters
 
 ---
 
-## Setup Notes
-
-### For Presenters
-
-- **Setup Note #1**: Bob IDE + Bobshell on laptop · OpenShift cluster access via TechZone
-- **Tip #2**: Using GitHub Actions and OpenShift today — but Bob speaks Jenkins, GitLab CI, Azure DevOps, Tekton, EKS, AKS, and more. The intelligence is the same regardless of the tooling.
-
-### Pipeline Breakdown
-
-View the customer-ready pipeline breakdown to see what they'll experience in the demo. The interactive site includes a detailed pipeline breakdown showing all stages and their relationships.
-
----
-
 ## Learning Outcomes
 
 After completing this demo, you will understand:

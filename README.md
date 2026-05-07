@@ -274,6 +274,60 @@ An **Interactive Demo** showcasing Bob's capabilities across the entire SDLC:
 
 ---
 
+### [Lab 5: Custom Modes - Test Engineer Mode Demonstration](Lab%205%20-%20Custom%20Modes%20-%20Test%20Engineer%20Mode%20Demonstration/)
+
+**Focus**: Creating specialized AI agents with custom modes, rules, and slash commands
+
+**🚀 [START LAB 5 NOW →](Lab%205%20-%20Custom%20Modes%20-%20Test%20Engineer%20Mode%20Demonstration/README.md)**
+
+**What You'll Learn:**
+- Create custom modes with focused expertise
+- Define behavioral rules for AI agents
+- Build reusable slash commands for common workflows
+- Implement file access restrictions and safety guardrails
+- Create a specialized Test Engineer mode from scratch
+
+**What You'll Build:**
+A complete **Test Engineer Mode** that:
+- Acts as a test automation specialist
+- Follows AAA pattern (Arrange, Act, Assert)
+- Only edits test files (safety guardrails)
+- Uses pytest for comprehensive test coverage
+- Includes custom slash commands for test coverage analysis
+- Demonstrates real-world separation of concerns
+
+**Key Technologies:**
+- IBM Bob (AI development assistant)
+- Custom Modes (YAML configuration)
+- Rules (Behavioral guidelines)
+- Slash Commands (Prompt templates)
+- Python pytest (Testing framework)
+- FastAPI (Sample application to test)
+
+**Time Estimate**: 35-40 minutes
+
+**Difficulty**: Intermediate
+
+**Prerequisites:**
+- IBM Bob IDE installed
+- Active IBM Bob subscription (free trial available)
+- Python 3.8+ installed
+- Basic understanding of testing concepts
+
+**Lab Structure:**
+1. Lab 0: Setup Environment (10 min)
+2. Lab 1: Create the Mode (3 min)
+3. Lab 2: Test Access Restrictions (2 min)
+4. Lab 3: Add Rules (5 min)
+5. Lab 4: Write Tests for Ping Function (5 min)
+6. Lab 5: Write Tests for Conversion Functions (5 min)
+7. Lab 6: Add Slash Command for Coverage (5 min)
+8. Lab 7: Achieve 100% Coverage (Optional)
+
+[**Start Lab 5 →**](Lab%205%20-%20Custom%20Modes%20-%20Test%20Engineer%20Mode%20Demonstration/)
+
+---
+
 ## Getting Started
 
 1. Choose a lab from the list above
@@ -290,8 +344,9 @@ We recommend completing the labs in order:
 2. **Lab 2** (60-75 min) - Build programmatic agents with watsonx Orchestrate
 3. **Lab 3** (90-120 min) - Create event-driven multi-agent systems
 4. **Lab 4** (60 min) - Experience Bob's complete SDLC capabilities (interactive demo)
+5. **Lab 5** (35-40 min) - Create custom modes with specialized AI agents
 
-**Total Time**: 3-4 hours for all labs
+**Total Time**: 4-5 hours for all labs
 
 ## Repository Structure
 
@@ -321,8 +376,13 @@ bobathon-amsterdam-labs/
 │   ├── assets/                   # Agent YAML configs & product catalog
 │   ├── sample-transactions.json  # Sample Kafka events
 │   └── images/                   # 20 screenshots
-└── Lab 4 - Full SDLC overview.../
-    └── README.md                 # Interactive demo guide (177 lines)
+├── Lab 4 - Full SDLC overview.../
+│   └── README.md                 # Interactive demo guide (164 lines)
+└── Lab 5 - Custom Modes - Test Engineer Mode Demonstration/
+    ├── README.md                 # Complete tutorial (450 lines)
+    ├── src/                      # Sample FastAPI application
+    ├── requirements.txt          # Python dependencies
+    └── images/                   # 2 screenshots
 ```
 
 ## Support and Resources

@@ -1,4 +1,4 @@
-# Lab 01: Custom Modes - Test Engineer Mode Demonstration
+# Lab 5: Custom Modes - Test Engineer Mode Demonstration
 
 ## Overview
 

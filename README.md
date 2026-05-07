@@ -217,6 +217,63 @@ During high-demand seasons (e.g., Christmas), customers ask: "Do you have the La
 
 ---
 
+### [Lab 4: Full SDLC Overview — What Bob Does, and Why It Matters](Lab%204%20-%20Full%20SDLC%20overview%20—%20what%20Bob%20does,%20and%20why%20it%20matters%20/)
+
+**Focus**: Interactive demonstration of Bob's complete SDLC capabilities
+
+**🚀 [START LAB 4 NOW →](https://ibm-bobathon-amsterdam.s3-web.eu-de.cloud-object-storage.appdomain.cloud/stages/stage-0.html)**
+
+**What You'll Experience:**
+- Complete software delivery lifecycle demonstration
+- One prompt → full deployable payment application
+- Automated test generation with comprehensive coverage
+- Security scanning and vulnerability detection
+- Infrastructure as Code with Terraform
+- OpenShift deployment workflows
+- CI/CD pipeline generation (Jenkins/GitLab CI/Azure DevOps)
+- Day-2 SRE operations and automated compliance
+
+**What You'll See:**
+An **Interactive Demo** showcasing Bob's capabilities across the entire SDLC:
+- Building a payment processing application from a single prompt
+- Generating full test suites with edge cases
+- Creating infrastructure as code
+- Deploying to OpenShift
+- Setting up CI/CD pipelines
+- Automating Day-2 operations
+
+**Key Technologies:**
+- IBM Bob (AI development assistant)
+- Spring Boot (Java application framework)
+- Terraform (Infrastructure as Code)
+- OpenShift (Container orchestration)
+- Jenkins/GitLab CI/Azure DevOps (CI/CD platforms)
+- Security scanning tools
+
+**Time Estimate**: 60 minutes (interactive demo)
+
+**Difficulty**: Beginner to Advanced (observation-based)
+
+**Prerequisites:**
+- Web browser (no installation required)
+- Internet connection
+- Understanding of SDLC concepts (helpful but not required)
+
+**Demo Structure:**
+1. Demo Intro (5 min) - Full SDLC overview
+2. Bob Builds the App (12 min) - One prompt → full app
+3. Java Modernization (Optional) - Upgrade to Java 17+
+4. Generate Tests (7 min) - Comprehensive test suite
+5. Security Scanning (8 min) - CVE and secret detection
+6. Infra as Code (10 min) - Terraform for OpenShift
+7. Deploy to OpenShift (8 min) - Production deployment
+8. CI/CD Pipeline (10 min) - Automated workflows
+9. Day-2 SRE Ops (5 min) - Operational automation
+
+[**Start Lab 4 →**](Lab%204%20-%20Full%20SDLC%20overview%20—%20what%20Bob%20does,%20and%20why%20it%20matters%20/)
+
+---
+
 ## Getting Started
 
 1. Choose a lab from the list above
@@ -232,6 +289,7 @@ We recommend completing the labs in order:
 1. **Lab 1** (45 min) - Learn Bob basics with a simple full-stack app
 2. **Lab 2** (60-75 min) - Build programmatic agents with watsonx Orchestrate
 3. **Lab 3** (90-120 min) - Create event-driven multi-agent systems
+4. **Lab 4** (60 min) - Experience Bob's complete SDLC capabilities (interactive demo)
 
 **Total Time**: 3-4 hours for all labs
 
@@ -258,11 +316,13 @@ bobathon-amsterdam-labs/
 │   ├── .bob/rules/              # Bob development rules
 │   ├── sample-pdfs/             # Sample invoice for testing
 │   └── images/                   # 29 screenshots
-└── Lab 3 - Building an event-driven agentic AI system.../
-    ├── README.md                 # Complete tutorial (499 lines)
-    ├── assets/                   # Agent YAML configs & product catalog
-    ├── sample-transactions.json  # Sample Kafka events
-    └── images/                   # 20 screenshots
+├── Lab 3 - Building an event-driven agentic AI system.../
+│   ├── README.md                 # Complete tutorial (499 lines)
+│   ├── assets/                   # Agent YAML configs & product catalog
+│   ├── sample-transactions.json  # Sample Kafka events
+│   └── images/                   # 20 screenshots
+└── Lab 4 - Full SDLC overview.../
+    └── README.md                 # Interactive demo guide (177 lines)
 ```
 
 ## Support and Resources

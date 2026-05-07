@@ -1,4 +1,4 @@
-# Lab 4: Full SDLC Overview — What Bob Does, and Why It Matters
+# Full SDLC Overview — What Bob Does, and Why It Matters
 
 ## 🎯 Interactive Demo Experience
 

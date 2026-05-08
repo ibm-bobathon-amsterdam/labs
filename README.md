@@ -102,6 +102,12 @@ Create specialized AI agents with custom modes, rules, and slash commands. Build
 
 ---
 
+### Lab 6: IBM-i-Application-Modernization-with-Bob
+
+**🚀 [LAUNCH →](https://github.com/bmarolleau/IBM-i-Application-Modernization-with-Bob)**
+
+---
+
 ## Optional Workshop
 
 **[Bob Workshop: Mastering Your AI Coding Partner](https://github.com/dzwietering/bobshop)** - A 45-minute hands-on workshop with 4 progressive exercises teaching effective Bob usage, including facilitator guides and assessment materials.

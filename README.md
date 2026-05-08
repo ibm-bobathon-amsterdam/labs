@@ -110,6 +110,18 @@ Learn how to modernize legacy IBM i (AS/400) applications using IBM Bob. This wo
 
 ---
 
+## Optional Lab for COBOL - Legacy Modernization
+
+**🚀 [START LAB →](Optional%20Lab%20for%20COBOL/README.md)** | ⏱️ 30-45 min | 📊 Intermediate
+
+Learn how to modernize legacy COBOL financial applications into modern Java microservices using IBM Bob. This hands-on workshop uses real IBM mainframe sample programs to demonstrate AI-powered modernization.
+
+**What You'll Build:** Convert a COBOL financial calculator system (loan payments, present value) to Java with tests, GUI, and REST API
+
+**Key Skills:** COBOL to Java conversion, legacy pattern recognition, financial calculations (BigDecimal), test-driven migration, REST API design
+
+---
+
 ## Additional Workshop
 
 **[Bob Workshop: Mastering Your AI Coding Partner](https://github.com/dzwietering/bobshop)** - A 45-minute hands-on workshop with 4 progressive exercises teaching effective Bob usage, including facilitator guides and assessment materials.

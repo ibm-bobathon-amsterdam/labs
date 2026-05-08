@@ -50,7 +50,7 @@ The following figure shows this architecture:
 ![Architecture diagram](images/Confluent_IMAGE_1.png)
 
 1. A Store Sales Associate asks a product availability question through the UI, for example:
-“Do you have LAPTOP-DELL-XPS-15 in MallOfEgypt?”
+“Do you have LAPTOP-DELL-XPS-15 in Mall Of Egypt?”
 
 2. The request is handled by the Store Associate Agent, which acts as a supervisor agent. It parses the request, extracts the SKU and branch, and decides which specialist agents to call.
 
@@ -484,11 +484,11 @@ In the Pre-deployment summary window, click Deploy again.
 
 Test A (Out of stock + substitutes)
 
-Do you have LAPTOP-DELL-XPS-15 in MallOfEgypt?
+Do you have LAPTOP-DELL-XPS-15 in Mall Of Egypt?
 
 Test B (In stock example)
 
-Do you have LAPTOP-MACBOOK-PRO-16 in MallOfEgypt?
+Do you have LAPTOP-MACBOOK-PRO-16 in Mall Of Egypt?
 
 ![TESTING FINAL](images/Confluent_IMAGE_20.png)
 

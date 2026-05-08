@@ -104,6 +104,8 @@ Create specialized AI agents with custom modes, rules, and slash commands. Build
 
 ## Optional Workshop - IBM-i-Application-Modernization-with-Bob
 
+Learn how to modernize legacy IBM i (AS/400) applications using IBM Bob. This workshop demonstrates using AI to transform RPG and COBOL code into modern languages and architectures.
+
 **🚀 [LAUNCH →](https://github.com/bmarolleau/IBM-i-Application-Modernization-with-Bob)**
 
 ---

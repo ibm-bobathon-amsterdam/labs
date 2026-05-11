@@ -124,7 +124,7 @@ Learn how to modernize legacy COBOL financial applications into modern Java micr
 
 ## Optional Lab
 
-**[Bob Workshop: Mastering Your AI Coding Partner](https://github.com/dzwietering/bobshop)** - A 45-minute hands-on workshop with 4 progressive exercises teaching effective Bob usage, including facilitator guides and assessment materials.
+**[Bob Workshop: Mastering Your AI Coding Partner](https://github.com/dzwietering/bobshop)** - A 45-minute hands-on workshop designed to teach developers how to effectively use Bob, an AI-powered coding assistant. Features 4 progressive exercises teaching effective Bob usage, including facilitator guides and assessment materials.
 
 ---
 

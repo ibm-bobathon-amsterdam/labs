@@ -136,7 +136,7 @@ Now let's build the Flask backend using Bob's Code mode.
 
 ### 2.1: Switch to Code Mode
 
-Change from Architect to Code mode in Bob's interface.
+Change from Plan to Code mode in Bob's interface.
 
 ### 2.2: Create Backend Structure
 

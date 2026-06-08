@@ -438,10 +438,8 @@ The current test coverage is 64%, which means that 64% of the source code is cov
 
 ## Resources
 
-- **Documentation**: `DOCS/21-custom_modes.md`
 - **Regex Testing**: https://regex101.com
 - **YAML Validation**: https://www.yamllint.com
-- **Example Modes**: `.bob/custom_modes.yaml` in this repository
 
 ---
 

@@ -34,8 +34,6 @@ Before starting, ensure you have:
 - [ ] GitHub account (for MCP integration)
 - [ ] Text editor or IDE open
 
-If you haven't completed setup, see [prerequisites.md](../prerequisites.md).
-
 ## Lab Structure
 
 ```
@@ -55,8 +53,8 @@ Lab 1 Timeline (45 minutes)
 
 Bob has three distinct modes, each optimized for different tasks:
 
-> **🎯 Bob Differentiator: [Customizable Modes](../bob-differentiators.md#1--extensible-architecture)**
-> Bob's mode system is one of its key differentiators. Unlike other AI assistants, Bob allows you to create custom modes tailored to your team's specific workflows. The three built-in modes you'll use in this lab are just the beginning—you can create specialized modes for code review, documentation, architecture design, and more. Learn more in [Lab 6](../lab6/README.md).
+> **🎯 Bob Differentiator:**
+> Bob's mode system is one of its key differentiators. Unlike other AI assistants, Bob allows you to create custom modes tailored to your team's specific workflows. The three built-in modes you'll use in this lab are just the beginning—you can create specialized modes for code review, documentation, architecture design, and more.
 
 #### 🎯 Plan Mode
 **When to use**: Planning, designing, strategizing
@@ -82,7 +80,7 @@ Bob has three distinct modes, each optimized for different tasks:
 ### Switching Between Modes
 
 In Bob's interface:
-1. Look for the mode selector (usually at the top)
+1. Look for the mode selector
 2. Click to see available modes
 3. Select the mode you need
 4. Bob will adapt its behavior accordingly
@@ -693,4 +691,4 @@ git commit -m "Initial commit"
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
-- [Bob Documentation](https://bob-docs-url)
+- [Bob Documentation](https://bob.ibm.com/docs)

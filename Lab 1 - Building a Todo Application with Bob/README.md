@@ -18,7 +18,7 @@ A full-stack todo application with:
 ## Learning Objectives
 
 By the end of this lab, you will:
-- ✅ Understand Bob's three modes (Architect, Code, Ask)
+- ✅ Understand Bob's modes
 - ✅ Use auto-approvals for rapid development
 - ✅ Practice literate coding techniques
 - ✅ Integrate GitHub using MCP servers
@@ -560,7 +560,7 @@ python
 
 You've successfully completed Lab 1! You've learned to:
 
-- ✅ Use Bob's Architect mode for planning
+- ✅ Use Bob's Plan mode for planning
 - ✅ Use Bob's Code mode for implementation
 - ✅ Enable and use auto-approvals
 - ✅ Apply literate coding principles
@@ -587,10 +587,10 @@ bob-todo-app/
 ## Key Takeaways
 
 ### Bob's Modes
-- **Architect**: Perfect for planning and design decisions
+- **Plan**: Perfect for planning and design decisions
 - **Code**: Best for implementation and file creation
 - **Ask**: Great for learning and understanding
-- **Custom Modes**: Create your own specialized modes ([Learn more](../bob-differentiators.md#customizable-modes))
+- **Custom Modes**: Create your own specialized modes
 
 ### Auto-Approvals
 - Speeds up development significantly
@@ -606,10 +606,9 @@ bob-todo-app/
 - Streamlines version control
 - Natural language git operations
 - Integrates seamlessly with Bob
-- **Extensible**: Part of Bob's [MCP Server Integration](../bob-differentiators.md#mcp-server-integration) capability
 
 > **💡 Behind the Scenes: Intelligent Resource Optimization**
-> While you've been building this app, Bob has been automatically selecting the right AI model for each task—using powerful models for complex architecture decisions and lighter models for simple file operations. This [automatic model selection](../bob-differentiators.md#automatic-model-selection) optimizes both quality and cost without you having to think about it. You can save up to 60% on AI costs while maintaining excellent results!
+> While you've been building this app, Bob has been automatically selecting the right AI model for each task—using powerful models for complex architecture decisions and lighter models for simple file operations. This automatic model selection optimizes both quality and cost without you having to think about it. You can save up to 60% on AI costs while maintaining excellent results!
 
 ## Next Steps
 
@@ -620,10 +619,6 @@ Try these improvements:
 3. Add user authentication
 4. Create a priority system
 5. Add search and filter functionality
-
-### Continue Learning
-- **[Lab 2: Security Analysis →](../lab2/README.md)** - Learn to identify and fix security vulnerabilities
-- **[Lab 3: Code Translation →](../lab3/README.md)** - Translate code between languages
 
 ## Troubleshooting
 
@@ -699,16 +694,3 @@ git commit -m "Initial commit"
 - [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
 - [Bob Documentation](https://bob-docs-url)
-
-## Feedback
-
-How was this lab? We'd love to hear your thoughts:
-- What worked well?
-- What was confusing?
-- What would you like to see added?
-
----
-
-**Ready for the next challenge?** → [Start Lab 2: Security Analysis](../lab2/README.md)
-
-**Last Updated: February 2026**
